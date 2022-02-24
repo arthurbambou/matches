@@ -371,6 +371,35 @@ digraph {
     merged_13w10a[label="13w10a",href="https://skyrising.github.io/mc-versions/version/13w10a.json"];
     merged_13w10b[label="13w10b",href="https://skyrising.github.io/mc-versions/version/13w10b.json"];
   }
+  subgraph cluster_1_10 {
+    label="1.10";
+    merged_1_10_1[label="1.10.1",href="https://skyrising.github.io/mc-versions/version/1.10.1.json"];
+    merged_1_10[label="1.10",href="https://skyrising.github.io/mc-versions/version/1.10.json"];
+    merged_1_10_pre2[label="1.10-pre2",href="https://skyrising.github.io/mc-versions/version/1.10-pre2.json"];
+    merged_1_10_pre1[label="1.10-pre1",href="https://skyrising.github.io/mc-versions/version/1.10-pre1.json"];
+    merged_1_10_2[label="1.10.2",href="https://skyrising.github.io/mc-versions/version/1.10.2.json"];
+    merged_16w20a[label="16w20a",href="https://skyrising.github.io/mc-versions/version/16w20a.json"];
+    merged_16w21a[label="16w21a",href="https://skyrising.github.io/mc-versions/version/16w21a.json"];
+    merged_16w21b[label="16w21b",href="https://skyrising.github.io/mc-versions/version/16w21b.json"];
+  }
+  subgraph cluster_1_9 {
+    label="1.9";
+    merged_1_9_4[label="1.9.4",href="https://skyrising.github.io/mc-versions/version/1.9.4.json"];
+    merged_15w31a[label="15w31a",href="https://skyrising.github.io/mc-versions/version/15w31a.json"];
+    merged_15w31b[label="15w31b",href="https://skyrising.github.io/mc-versions/version/15w31b.json"];
+    merged_15w31c[label="15w31c",href="https://skyrising.github.io/mc-versions/version/15w31c.json"];
+    merged_15w32a[label="15w32a",href="https://skyrising.github.io/mc-versions/version/15w32a.json"];
+    merged_15w32b[label="15w32b",href="https://skyrising.github.io/mc-versions/version/15w32b.json"];
+    merged_15w32c[label="15w32c",href="https://skyrising.github.io/mc-versions/version/15w32c.json"];
+    merged_15w33a[label="15w33a",href="https://skyrising.github.io/mc-versions/version/15w33a.json"];
+    merged_15w33b[label="15w33b",href="https://skyrising.github.io/mc-versions/version/15w33b.json"];
+    merged_15w33c[label="15w33c",href="https://skyrising.github.io/mc-versions/version/15w33c.json"];
+    merged_15w34a[label="15w34a",href="https://skyrising.github.io/mc-versions/version/15w34a.json"];
+    merged_15w34b[label="15w34b",href="https://skyrising.github.io/mc-versions/version/15w34b.json"];
+    merged_15w34c[label="15w34c",href="https://skyrising.github.io/mc-versions/version/15w34c.json"];
+    merged_15w34d[label="15w34d",href="https://skyrising.github.io/mc-versions/version/15w34d.json"];
+    merged_15w35a[label="15w35a",href="https://skyrising.github.io/mc-versions/version/15w35a.json"];
+  }
   subgraph cluster_1_4 {
     label="1.4";
     merged_12w32a[label="12w32a",href="https://skyrising.github.io/mc-versions/version/12w32a.json"];
@@ -547,23 +576,6 @@ digraph {
     merged_14w34b[label="14w34b",href="https://skyrising.github.io/mc-versions/version/14w34b.json"];
     merged_14w34c_08191549[label="14w34c-08191549",href="https://skyrising.github.io/mc-versions/version/14w34c-08191549.json"];
     merged_14w34d[label="14w34d",href="https://skyrising.github.io/mc-versions/version/14w34d.json"];
-  }
-  subgraph cluster_1_9 {
-    label="1.9";
-    merged_15w31a[label="15w31a",href="https://skyrising.github.io/mc-versions/version/15w31a.json"];
-    merged_15w31b[label="15w31b",href="https://skyrising.github.io/mc-versions/version/15w31b.json"];
-    merged_15w31c[label="15w31c",href="https://skyrising.github.io/mc-versions/version/15w31c.json"];
-    merged_15w32a[label="15w32a",href="https://skyrising.github.io/mc-versions/version/15w32a.json"];
-    merged_15w32b[label="15w32b",href="https://skyrising.github.io/mc-versions/version/15w32b.json"];
-    merged_15w32c[label="15w32c",href="https://skyrising.github.io/mc-versions/version/15w32c.json"];
-    merged_15w33a[label="15w33a",href="https://skyrising.github.io/mc-versions/version/15w33a.json"];
-    merged_15w33b[label="15w33b",href="https://skyrising.github.io/mc-versions/version/15w33b.json"];
-    merged_15w33c[label="15w33c",href="https://skyrising.github.io/mc-versions/version/15w33c.json"];
-    merged_15w34a[label="15w34a",href="https://skyrising.github.io/mc-versions/version/15w34a.json"];
-    merged_15w34b[label="15w34b",href="https://skyrising.github.io/mc-versions/version/15w34b.json"];
-    merged_15w34c[label="15w34c",href="https://skyrising.github.io/mc-versions/version/15w34c.json"];
-    merged_15w34d[label="15w34d",href="https://skyrising.github.io/mc-versions/version/15w34d.json"];
-    merged_15w35a[label="15w35a",href="https://skyrising.github.io/mc-versions/version/15w35a.json"];
   }
   subgraph cluster_april_fools {
     label="april-fools";
@@ -789,6 +801,14 @@ digraph {
   merged_13w11a -> client_13w12_[label="99.5%",color="#880000",href="cross/1.5/merged-13w11a%23client-13w12~.match"];
   client_b1_2_02 -> server_b1_3_1647[label="51.5%",color="#888800",href="cross/beta/client-b1.2_02%23server-b1.3-1647.match"];
   server_b1_3_1731 -> client_b1_3_01[label="88.83%",color="#8888ff",href="cross/beta/server-b1.3-1731%23client-b1.3_01.match"];
+  merged_1_10 -> merged_1_10_1[label="100%",href="merged/1.10/1.10%231.10.1.match"];
+  merged_1_10_pre1 -> merged_1_10_pre2[label="99.79%",href="merged/1.10/1.10-pre1%231.10-pre2.match"];
+  merged_1_10_pre2 -> merged_1_10[label="100%",href="merged/1.10/1.10-pre2%231.10.match"];
+  merged_1_10_1 -> merged_1_10_2[label="100%",href="merged/1.10/1.10.1%231.10.2.match"];
+  merged_1_9_4 -> merged_16w20a[label="99.95%",href="merged/1.10/1.9.4%2316w20a.match"];
+  merged_16w20a -> merged_16w21a[label="99.98%",href="merged/1.10/16w20a%2316w21a.match"];
+  merged_16w21a -> merged_16w21b[label="100%",href="merged/1.10/16w21a%2316w21b.match"];
+  merged_16w21b -> merged_1_10_pre1[label="99.99%",href="merged/1.10/16w21b%231.10-pre1.match"];
   merged_1_3_pre_07261249 -> merged_1_3_1[label="94.21%",href="merged/1.3/1.3-pre-07261249%231.3.1.match"];
   merged_1_3_1 -> merged_1_3_2[label="100%",href="merged/1.3/1.3.1%231.3.2.match"];
   merged_12w30a -> merged_12w30b[label="100%",href="merged/1.3/12w30a%2312w30b.match"];
