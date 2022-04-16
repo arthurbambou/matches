@@ -408,6 +408,11 @@ digraph {
     merged_15w36c[label="15w36c",href="https://skyrising.github.io/mc-versions/version/15w36c.json"];
     merged_15w36d[label="15w36d",href="https://skyrising.github.io/mc-versions/version/15w36d.json"];
     merged_15w37a[label="15w37a",href="https://skyrising.github.io/mc-versions/version/15w37a.json"];
+    merged_15w38a[label="15w38a",href="https://skyrising.github.io/mc-versions/version/15w38a.json"];
+    merged_15w38b[label="15w38b",href="https://skyrising.github.io/mc-versions/version/15w38b.json"];
+    merged_15w39a[label="15w39a",href="https://skyrising.github.io/mc-versions/version/15w39a.json"];
+    merged_15w39b[label="15w39b",href="https://skyrising.github.io/mc-versions/version/15w39b.json"];
+    merged_15w39c[label="15w39c",href="https://skyrising.github.io/mc-versions/version/15w39c.json"];
   }
   subgraph cluster_1_4 {
     label="1.4";
@@ -1037,6 +1042,11 @@ digraph {
   merged_15w36b -> merged_15w36c[label="100%",href="merged/1.9/15w36b%2315w36c.match"];
   merged_15w36c -> merged_15w36d[label="99.99%",href="merged/1.9/15w36c%2315w36d.match"];
   merged_15w36d -> merged_15w37a[label="99.74%",href="merged/1.9/15w36d%2315w37a.match"];
+  merged_15w37a -> merged_15w38a[label="99.88%",href="merged/1.9/15w37a%2315w38a.match"];
+  merged_15w38a -> merged_15w38b[label="100%",href="merged/1.9/15w38a%2315w38b.match"];
+  merged_15w38b -> merged_15w39a[label="100%",href="merged/1.9/15w38b%2315w39a.match"];
+  merged_15w39a -> merged_15w39b[label="100%",href="merged/1.9/15w39a%2315w39b.match"];
+  merged_15w39b -> merged_15w39c[label="100%",href="merged/1.9/15w39b%2315w39c.match"];
   merged_1_5 -> merged_af_2013_blue[label="99.99%",href="merged/april-fools/1.5%23af-2013-blue.match"];
   merged_1_5 -> merged_af_2013_purple[label="99.99%",href="merged/april-fools/1.5%23af-2013-purple.match"];
   merged_1_5_1 -> merged_af_2013_blue[label="99.49%",href="merged/april-fools/1.5.1%23af-2013-blue.match"];
