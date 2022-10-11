@@ -709,6 +709,12 @@ digraph {
     merged_17w48a[label="17w48a",href="https://skyrising.github.io/mc-versions/version/17w48a.json"];
     merged_17w49a[label="17w49a",href="https://skyrising.github.io/mc-versions/version/17w49a.json"];
     merged_17w49b[label="17w49b",href="https://skyrising.github.io/mc-versions/version/17w49b.json"];
+    merged_17w50a[label="17w50a",href="https://skyrising.github.io/mc-versions/version/17w50a.json"];
+    merged_18w01a[label="18w01a",href="https://skyrising.github.io/mc-versions/version/18w01a.json"];
+    merged_18w02a[label="18w02a",href="https://skyrising.github.io/mc-versions/version/18w02a.json"];
+    merged_18w03a[label="18w03a",href="https://skyrising.github.io/mc-versions/version/18w03a.json"];
+    merged_18w03b[label="18w03b",href="https://skyrising.github.io/mc-versions/version/18w03b.json"];
+    merged_18w05a[label="18w05a",href="https://skyrising.github.io/mc-versions/version/18w05a.json"];
   }
   subgraph cluster_1_14 {
     label="1.14";
@@ -952,6 +958,8 @@ digraph {
   merged_1_5_1 -> client_1_5_2_pre_250903[label="99.32%",color="#880000",href="cross/1.5/merged-1.5.1%23client-1.5.2-pre-250903.match"];
   merged_13w11a -> client_13w12_[label="99.5%",color="#880000",href="cross/1.5/merged-13w11a%23client-13w12~.match"];
   client_b1_2_02 -> server_b1_3_1647[label="51.19%",color="#888800",href="cross/beta/client-b1.2_02%23server-b1.3-1647.match"];
+  server_b1_0 -> client_b1_0[label="88.08%",color="#8888ff",href="cross/beta/server-b1.0%23client-b1.0.match"];
+  server_b1_0_01 -> client_b1_0_01[label="87.8%",color="#8888ff",href="cross/beta/server-b1.0_01%23client-b1.0_01.match"];
   server_b1_3_1731 -> client_b1_3_01[label="88.54%",color="#8888ff",href="cross/beta/server-b1.3-1731%23client-b1.3_01.match"];
   merged_1_10 -> merged_1_10_1[label="100%",href="merged/1.10/1.10%231.10.1.match"];
   merged_1_10_pre1 -> merged_1_10_pre2[label="99.79%",href="merged/1.10/1.10-pre1%231.10-pre2.match"];
@@ -1001,7 +1009,7 @@ digraph {
   merged_17w16a -> merged_17w16b[label="99.99%",href="merged/1.12/17w16a%2317w16b.match"];
   merged_17w16b -> merged_17w17a[label="99.88%",href="merged/1.12/17w16b%2317w17a.match"];
   merged_17w17a -> merged_17w17b[label="100%",href="merged/1.12/17w17a%2317w17b.match"];
-  merged_17w17b -> merged_17w18a[label="99.83%",href="merged/1.12/17w17b%2317w18a.match"];
+  merged_17w17b -> merged_17w18a[label="99.82%",href="merged/1.12/17w17b%2317w18a.match"];
   merged_17w18a -> merged_17w18b[label="99.98%",href="merged/1.12/17w18a%2317w18b.match"];
   merged_17w18b -> merged_1_12_pre1[label="99.98%",href="merged/1.12/17w18b%231.12-pre1.match"];
   merged_17w31a -> merged_1_12_1_pre1[label="100%",href="merged/1.12/17w31a%231.12.1-pre1.match"];
@@ -1015,6 +1023,12 @@ digraph {
   merged_17w47b -> merged_17w48a[label="99.96%",href="merged/1.13/17w47b%2317w48a.match"];
   merged_17w48a -> merged_17w49a[label="99.93%",href="merged/1.13/17w48a%2317w49a.match"];
   merged_17w49a -> merged_17w49b[label="99.88%",href="merged/1.13/17w49a%2317w49b.match"];
+  merged_17w49b -> merged_17w50a[label="99.96%",href="merged/1.13/17w49b%2317w50a.match"];
+  merged_17w50a -> merged_18w01a[label="99.61%",href="merged/1.13/17w50a%2318w01a.match"];
+  merged_18w01a -> merged_18w02a[label="98.83%",href="merged/1.13/18w01a%2318w02a.match"];
+  merged_18w02a -> merged_18w03a[label="99.99%",href="merged/1.13/18w02a%2318w03a.match"];
+  merged_18w03a -> merged_18w03b[label="100%",href="merged/1.13/18w03a%2318w03b.match"];
+  merged_18w03b -> merged_18w05a[label="99.99%",href="merged/1.13/18w03b%2318w05a.match"];
   merged_1_3_pre_07261249 -> merged_1_3_1[label="94.21%",href="merged/1.3/1.3-pre-07261249%231.3.1.match"];
   merged_1_3_1 -> merged_1_3_2[label="100%",href="merged/1.3/1.3.1%231.3.2.match"];
   merged_12w32a -> merged_1_3_2[label="98.27%",href="merged/1.3/12w32a%231.3.2.match"];
