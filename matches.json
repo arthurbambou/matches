@@ -1726,6 +1726,11 @@
       "file": "matches/merged/1.13/18w33a#1.13.1-pre1.match"
     },
     {
+      "a": "merged-1.14-pre2",
+      "b": "merged-1.14-pre3",
+      "file": "matches/merged/1.14/1.14-pre2#1.14-pre3.match"
+    },
+    {
       "a": "merged-1.14-pre3",
       "b": "merged-1.14-pre4",
       "file": "matches/merged/1.14/1.14-pre3#1.14-pre4.match"
@@ -5705,16 +5710,22 @@
       "version": "18w33a",
       "era": "1.13"
     },
-    "merged-1.14-pre4": {
-      "id": "merged_1_14_pre4",
-      "type": "merged",
-      "version": "1.14-pre4",
-      "era": "1.14"
-    },
     "merged-1.14-pre3": {
       "id": "merged_1_14_pre3",
       "type": "merged",
       "version": "1.14-pre3",
+      "era": "1.14"
+    },
+    "merged-1.14-pre2": {
+      "id": "merged_1_14_pre2",
+      "type": "merged",
+      "version": "1.14-pre2",
+      "era": "1.14"
+    },
+    "merged-1.14-pre4": {
+      "id": "merged_1_14_pre4",
+      "type": "merged",
+      "version": "1.14-pre4",
       "era": "1.14"
     },
     "merged-1.14-pre5": {
