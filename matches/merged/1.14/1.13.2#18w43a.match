@@ -1,4 +1,4 @@
-Matches saved 2023-02-14, status: c:3911/4027 m:30329/31520 f:13354/14542 ma:43115/45608, input files:
+Matches saved 2023-02-14, status: c:3911/4027 m:30333/31520 f:13354/14542 ma:43119/45608, input files:
 	a:
 		15910613	SHA256	tb2f7pXNQTwbV/La19PMHI+dpHqRLahl+niFo1F9E3k=	minecraft-merged-1.13.2.jar
 	b:
@@ -39916,6 +39916,8 @@ c	Lbmx;	Lbnu;
 		ma	1	1
 		ma	2	2
 	m	d()Laxm;	g()Layp;
+	m	a(J)V	a(J)V
+		ma	0	0
 	m	e()Ljava/util/Map;	h()Ljava/util/Map;
 	m	g()[Layu;	i()[Lazx;
 	m	i()Lbnd;	k()Lboa;
@@ -40279,6 +40281,8 @@ c	Lbni;	Lbog;
 		ma	1	1
 		ma	2	2
 	m	d()Laxm;	g()Layp;
+	m	a(J)V	a(J)V
+		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
 	m	a(Ljava/lang/String;Lbxc;)V	a(Ljava/lang/String;Lbyc;)V
@@ -40465,6 +40469,8 @@ c	Lbnj;	Lboh;
 	m	k()Layo;	n()Lazp;
 	m	l()Layo;	o()Lazp;
 	m	f(Z)V	d(Z)V
+		ma	0	0
+	m	a(J)V	a(J)V
 		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
@@ -40753,6 +40759,8 @@ c	Lbnr;	Lbop;
 		ma	2	2
 		mv	0	0
 	m	d()Laxm;	g()Layp;
+	m	a(J)V	a(J)V
+		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
 	m	a(Ljava/lang/String;Lbxc;)V	a(Ljava/lang/String;Lbyc;)V
