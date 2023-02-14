@@ -1,50 +1,50 @@
-Matches saved 2023-02-09, status: c:3904/4027 m:30317/31520 f:13348/14542 ma:43099/45608, input files:
+Matches saved 2023-02-14, status: c:3911/4027 m:30329/31520 f:13354/14542 ma:43115/45608, input files:
 	a:
-		minecraft-merged-1.13.2.jar
+		15910613	SHA256	tb2f7pXNQTwbV/La19PMHI+dpHqRLahl+niFo1F9E3k=	minecraft-merged-1.13.2.jar
 	b:
-		minecraft-merged-18w43a.jar
+		16571089	SHA256	uBg6FRXs6gd8d71Z9yOjvxQ6lEb2r3UrfY17bvO93GM=	minecraft-merged-18w43a.jar
 	cp:
-		patchy-1.3.9.jar
-		oshi-core-1.1.jar
-		jna-4.4.0.jar
-		platform-3.4.0.jar
-		icu4j-core-mojang-51.2.jar
-		jopt-simple-5.0.3.jar
-		codecjorbis-20101023.jar
-		codecwav-20101023.jar
-		libraryjavasound-20101123.jar
-		soundsystem-20120107.jar
-		netty-all-4.1.25.Final.jar
-		guava-21.0.jar
-		commons-lang3-3.5.jar
-		commons-io-2.5.jar
-		commons-codec-1.10.jar
-		jinput-2.0.5.jar
-		jutils-1.0.0.jar
-		brigadier-1.0.14.jar
-		gson-2.8.0.jar
-		authlib-1.5.25.jar
-		commons-compress-1.8.1.jar
-		httpclient-4.3.3.jar
-		commons-logging-1.1.3.jar
-		httpcore-4.3.2.jar
-		fastutil-8.2.1.jar
-		log4j-api-2.8.1.jar
-		log4j-core-2.8.1.jar
-		lwjgl-3.1.6.jar
-		lwjgl-jemalloc-3.1.6.jar
-		lwjgl-openal-3.1.6.jar
-		lwjgl-opengl-3.1.6.jar
-		lwjgl-glfw-3.1.6.jar
-		lwjgl-stb-3.1.6.jar
-		text2speech-1.10.3.jar
-		java-objc-bridge-1.0.0.jar
+		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
+		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
+		1091208	SHA256	xNre7sqpDIhHkCCCruXrEH/PWcXQ5joX/K8nPA4tK9E=	jna-4.4.0.jar
+		913436	SHA256	6onVCQyDA7pOmgBW5tiiBCnz4CFBHpUL/Z66O25s8Vw=	platform-3.4.0.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		78175	SHA256	b0XACQgmWUfDkiEDUlACTyyuyaFcHIz1U+vuzuKJ80I=	jopt-simple-5.0.3.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		3823147	SHA256	lyZC0AN3BkhXR9NM5Q/WehXw7T2KeBiC1oOCTJl3vIY=	netty-all-4.1.25.Final.jar
+		2521113	SHA256	lyE5cYq8ikiT+njLqM97LJA/Ncl6r0T6MDGwZplItIA=	guava-21.0.jar
+		479881	SHA256	islvxoZRLXd/yoXhRPGWzXz+DArsIxJyKUl9Gjj/ZRw=	commons-lang3-3.5.jar
+		208700	SHA256	oQQYNI0jSWhgDMsdmI78u9CHFuHZaTbMwYgOfSJRNHQ=	commons-io-2.5.jar
+		284184	SHA256	QkHfqU5xHUNfKaRgSj4t5cSqPBZeI70Ga+b8H8QwlWk=	commons-codec-1.10.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		73350	SHA256	du2jqqVztOaq9XpZ3r6QxOmmLcH87VkCwZkcjIY9XA0=	brigadier-1.0.14.jar
+		231952	SHA256	xiIXY715xPHD3H91C18poLs4s2e4ExTE9xiW40DECCU=	gson-2.8.0.jar
+		65621	SHA256	yKCVEjvpPFnUrCnkoGFklbPUeaxlkTy3Gage5YPp380=	authlib-1.5.25.jar
+		365552	SHA256	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
+		589512	SHA256	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
+		62050	SHA256	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
+		282269	SHA256	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
+		18800417	SHA256	fTNuK2Hd9uQZOlVie35ga/Qrfi9lLfL7g2/DQ91Ruko=	fastutil-8.2.1.jar
+		228859	SHA256	EgWrdksTJvfZbZm6pKThJhRZm/PXNXkJR3SO4RZRH6I=	log4j-api-2.8.1.jar
+		1402925	SHA256	gVpz4g6QpBNmLu/oWUQUaE3z1XI+3NdgcOGlruhkYW4=	log4j-core-2.8.1.jar
+		299086	SHA256	jce12dl3h1jTlIdamWqlwBFffL+5vLrnMexshyns8RI=	lwjgl-3.1.6.jar
+		40775	SHA256	LUwFlhgVWDszPaSIz0FdVwDaw6W67auj4OHt9z+abKg=	lwjgl-jemalloc-3.1.6.jar
+		79062	SHA256	7MWz4gjGe4lNRoK0fR0iBvJN+lMn1epMBzAcpZJjKkA=	lwjgl-openal-3.1.6.jar
+		821814	SHA256	+pVCBQezaZO4R2TWi00IU42BxSgkVZ9H10257RVRHZY=	lwjgl-opengl-3.1.6.jar
+		114101	SHA256	7Zx+jScleMyaw4S2idZ2EwSDPEbtOmLUME5i1LEkhvw=	lwjgl-glfw-3.1.6.jar
+		104583	SHA256	8nLwqsODzDmGZPUrRkAwr7MJJ7ChTrkJI2oHenurRf0=	lwjgl-stb-3.1.6.jar
+		11055	SHA256	hB0vQHgkpKnD3YcsUezXbVA4HFabecPqewa2nuwrulM=	text2speech-1.10.3.jar
+		40502	SHA256	/sg2AdLaEnI0coqP/7Qp0MSllYdFKDTaIDFj5qP5Qds=	java-objc-bridge-1.0.0.jar
 	cp a:
-		datafixerupper-1.0.19.jar
-		realms-1.13.9.jar
+		431014	SHA256	ROOKcYqAy7cyyoNV1TiT8df9u5cGRFG7fMcS+ZOY9iI=	datafixerupper-1.0.19.jar
+		6385071	SHA256	2kHDvInoK380mWtXqjl+VasPpQ3HPlk5LTdifP2MaV8=	realms-1.13.9.jar
 	cp b:
-		datafixerupper-1.0.21.jar
-		realms-1.13.3.jar
+		432133	SHA256	lW8fdxc+/2CykGZ8lJkXcqaNjDxMuuMBc85L4v6jmlE=	datafixerupper-1.0.21.jar
+		6384965	SHA256	do/jvL6Vxf0VEy29PApoLPR3LgrMjzz4A3CPvekvYgc=	realms-1.13.3.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -39916,8 +39916,6 @@ c	Lbmx;	Lbnu;
 		ma	1	1
 		ma	2	2
 	m	d()Laxm;	g()Layp;
-	m	a(J)V	a(J)V
-		ma	0	0
 	m	e()Ljava/util/Map;	h()Ljava/util/Map;
 	m	g()[Layu;	i()[Lazx;
 	m	i()Lbnd;	k()Lboa;
@@ -40281,8 +40279,6 @@ c	Lbni;	Lbog;
 		ma	1	1
 		ma	2	2
 	m	d()Laxm;	g()Layp;
-	m	a(J)V	a(J)V
-		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
 	m	a(Ljava/lang/String;Lbxc;)V	a(Ljava/lang/String;Lbyc;)V
@@ -40470,8 +40466,6 @@ c	Lbnj;	Lboh;
 	m	l()Layo;	o()Lazp;
 	m	f(Z)V	d(Z)V
 		ma	0	0
-	m	a(J)V	b(J)V
-		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
 	m	a(Ljava/lang/String;Lbxc;)V	a(Ljava/lang/String;Lbyc;)V
@@ -40534,6 +40528,7 @@ c	Lbnj;	Lboh;
 	f	u;;Z	z;;Z
 	f	v;;Z	s;;Z
 	f	w;;J	v;;J
+	f	x;;Z	u;;Z
 	f	z;;J	t;;J
 	f	F;;Laxm;	y;;Layp;
 c	Lbnk;	Lboi;
@@ -40758,8 +40753,6 @@ c	Lbnr;	Lbop;
 		ma	2	2
 		mv	0	0
 	m	d()Laxm;	g()Layp;
-	m	a(J)V	a(J)V
-		ma	0	0
 	m	a(Ljava/lang/String;)Lbxc;	a(Ljava/lang/String;)Lbyc;
 		ma	0	0
 	m	a(Ljava/lang/String;Lbxc;)V	a(Ljava/lang/String;Lbyc;)V
@@ -44467,6 +44460,19 @@ c	Lbso;	Lbts;
 		ma	3	3
 		ma	4	4
 	m	c()I	c()I
+c	Lbsp;	Lbtt;
+	m	<init>()V	<init>(Ljava/util/function/Function;)V
+	m	a(Laxz;Lbmy;Ljava/util/Random;Lel;Lbsl;)Z	a(Lazb;Lbnv;Ljava/util/Random;Leq;Lbtp;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	a(Laxz;Lbmy;Ljava/util/Random;Lel;Lbqp;)Z	a(Lazb;Lbnv;Ljava/util/Random;Leq;Lbrx;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 c	Lbsq;	Lbtu;
 	m	<init>()V	<init>(Ljava/util/function/Function;)V
 	m	a(Laxz;Lbmy;Ljava/util/Random;Lel;Lbrz;)Z	a(Lazb;Lbnv;Ljava/util/Random;Leq;Lbte;)Z
@@ -56064,6 +56070,12 @@ c	Lccq;	Lcdz;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lorg/apache/logging/log4j/Logger;	c;;Lorg/apache/logging/log4j/Logger;
 	f	c;;[Lcco;	e;;[Lcdy;
+c	Lccr$a;	Lcdw$a;
+	m	<init>(Ltd;)V	<init>(Ltz;)V
+	m	a(F)Lccr$a;	a(F)Lcdw$a;
+		ma	0	0
+	f	a;;Ltd;	a;;Ltz;
+	f	b;;F	e;;F
 c	Lccr$b$a;	Lcdw$c$a;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/stream/JsonWriter;Lccr$b;)V	a(Lcom/google/gson/stream/JsonWriter;Lcdw$c;)V
@@ -62064,6 +62076,11 @@ c	Lci$b;	Lcl$c;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
 	f	a;;I	a;;I
+c	Lci$c;	Lcl$f;
+	m	<init>(Ljava/lang/String;[Lci$d;)V	<init>(Ljava/lang/String;[Lcl$g;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
+		ma	0	0
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 c	Lci$d;	Lcgg$a;
 c	Lci;	Lcl;
 	m	<init>()V	<init>()V
@@ -96175,6 +96192,16 @@ c	Ldgb$a;	Ldjk$a;
 		mv	0	0
 	f	a;;Lcom/google/common/collect/PeekingIterator;	a;;Lcom/google/common/collect/PeekingIterator;
 	f	b;;Lcom/google/common/collect/PeekingIterator;	b;;Lcom/google/common/collect/PeekingIterator;
+c	Ldgb$b;	Ldjl$a;
+	m	<init>(Ljava/util/Iterator;Ljava/util/Iterator;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V	<init>(Ljava/util/Iterator;Ljava/util/Iterator;Ljava/util/Comparator;)V
+		ma	0	0
+		ma	1	1
+	m	computeNext()Ljava/lang/Object;	computeNext()Ljava/lang/Object;
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	f	a;;Lcom/google/common/collect/PeekingIterator;	a;;Lcom/google/common/collect/PeekingIterator;
+	f	b;;Lcom/google/common/collect/PeekingIterator;	b;;Lcom/google/common/collect/PeekingIterator;
 c	Ldgb;	Ldjk;
 	m	<init>(Ljava/util/function/Function;Ljava/util/function/Function;)V	<init>(Ljava/util/function/Function;)V
 		ma	0	0
@@ -97749,6 +97776,9 @@ c	Ldhq;	Ldgi;
 	f	R;;I	R;;I
 	f	S;;I	S;;I
 	f	ac;;Ljava/util/Map;	ad;;Ljava/util/Map;
+c	Ldj$a;	Ldp$a;
+	m	create(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	a(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
+		ma	0	0
 c	Ldj;	Ldp;
 	m	<init>()V	<init>()V
 	m	a()Ldj;	a()Ldp;
@@ -112996,6 +113026,15 @@ c	Lsg;	Lsz;
 	f	f;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	g;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	g;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	h;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	h;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+c	Lsh$1;	Lta$1;
+	m	<init>()V	<init>(Ljava/lang/String;)V
+	m	a(Lcom/mojang/brigadier/context/CommandContext;)Lsi;	a(Lcom/mojang/brigadier/context/CommandContext;)Ltb;
+		ma	0	0
+		mv	0	0
+		mv	1	1
+	m	a(Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	a(Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+		ma	1	1
 c	Lsh;	Lta;
 	m	<init>(Lbji;Lel;)V	<init>(Lbkf;Leq;)V
 		ma	0	0
@@ -113104,6 +113143,13 @@ c	Lsj;	Ltc;
 	f	b;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	d;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	c;;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	e;;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	f	d;;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f;;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+c	Lsk$1;	Ltd$1;
+	m	<init>()V	<init>(Ljava/lang/String;)V
+	m	a(Lcom/mojang/brigadier/context/CommandContext;)Lsi;	a(Lcom/mojang/brigadier/context/CommandContext;)Ltb;
+		ma	0	0
+	m	a(Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	a(Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+		ma	1	1
 c	Lsk;	Ltd;
 	m	<init>(Laer;)V	<init>(Lafh;)V
 		ma	0	0
