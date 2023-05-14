@@ -1,8 +1,8 @@
-Matches saved 2023-01-12, status: c:4238/4325 m:31163/31922 f:14379/14449 ma:44670/45816, input files:
+Matches saved 2023-05-14, status: c:4210/4325 m:31137/31922 f:14327/14449 ma:44588/45816, input files:
 	a:
-		12144386	SHA256	w77VEmrr0rn56RIuFl9kvzc8Mdpu6xp3kXuIS/Ed8dQ=	minecraft-merged-18w19a.jar
+		12144386	SHA256	9W75Zj3TnB33cSPnKKdGEeLC2612dkploZeK1ukxkNQ=	minecraft-merged-18w19a.jar
 	b:
-		12041900	SHA256	JQOTtRAkaS2l4nNZ68GCVWVB/Yx8kVYXGlFJ3vtxMx0=	minecraft-merged-18w19b.jar
+		12041900	SHA256	77J8QPxXrvIS+DDSzh1Ej3tZJGTWczH89qH7jJ3c+9g=	minecraft-merged-18w19b.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -639,45 +639,6 @@ c	Laav$h;	Laax$h;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Laav$h;	a;;Laax$h;
 	f	b;;[Laav$h;	b;;[Laax$h;
-c	Laav$i;	Laax$i;
-	m	values()[Laav$i;	values()[Laax$i;
-	m	valueOf(Ljava/lang/String;)Laav$i;	valueOf(Ljava/lang/String;)Laax$i;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	a(Lacx;Lacx;Laat;Laat;)Ljava/util/Optional;	a(Laer;Laer;Laav;Laav;)Ljava/util/Optional;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-	m	a(Laaw;Laaw;Laat;Laat;Lacw;Lacw;)Ljava/util/Optional;	a(Laay;Laay;Laav;Laav;Laeq;Laeq;)Ljava/util/Optional;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	b(Laaw;Laaw;Laat;Laat;Lacw;Lacw;)Ljava/util/Optional;	b(Laay;Laay;Laav;Laav;Laeq;Laeq;)Ljava/util/Optional;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		mv	0	0
-		mv	1	1
-	m	<clinit>()V	<clinit>()V
-	f	a;;Laav$i;	a;;Laax$i;
-	f	b;;[Laav$i;	b;;[Laax$i;
 c	Laav$j;	Laax$j;
 	m	values()[Laav$j;	values()[Laax$j;
 	m	valueOf(Ljava/lang/String;)Laav$j;	valueOf(Ljava/lang/String;)Laax$j;
@@ -757,66 +718,6 @@ c	Laav$n;	Laax$n;
 		ma	1	1
 	f	a;;Laav;	a;;Laax;
 	f	b;;Ljava/util/function/Supplier;	b;;Ljava/util/function/Supplier;
-c	Laav$o;	Laax$o;
-	m	values()[Laav$o;	values()[Laax$o;
-	m	valueOf(Ljava/lang/String;)Laav$o;	valueOf(Ljava/lang/String;)Laax$o;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	a(Lacx;Lacx;Laat;Laat;)Ljava/util/Optional;	a(Laer;Laer;Laav;Laav;)Ljava/util/Optional;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-		mv	8	8
-		mv	9	9
-	m	a(Lacw;Lacw;Laak;Laak;)Ljava/lang/Object;	a(Laeq;Laeq;Laam;Laam;)Ljava/lang/Object;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	<clinit>()V	<clinit>()V
-	f	a;;Laav$o;	a;;Laax$o;
-	f	b;;[Laav$o;	b;;[Laax$o;
-c	Laav$p;	Laax$p;
-	m	values()[Laav$p;	values()[Laax$p;
-	m	valueOf(Ljava/lang/String;)Laav$p;	valueOf(Ljava/lang/String;)Laax$p;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	a(Lacx;Lacx;Laat;Laat;)Ljava/util/Optional;	a(Laer;Laer;Laav;Laav;)Ljava/util/Optional;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-		mv	8	8
-		mv	9	9
-	m	a(Lacw;Lacw;Laak;Laak;)Ljava/lang/Object;	a(Laeq;Laeq;Laam;Laam;)Ljava/lang/Object;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	<clinit>()V	<clinit>()V
-	f	a;;Laav$p;	a;;Laax$p;
-	f	b;;[Laav$p;	b;;[Laax$p;
 c	Laav;	Laax;
 	m	a(Lacx;Laat;)Ljava/util/Optional;	a(Laer;Laav;)Ljava/util/Optional;
 		ma	0	0
@@ -996,13 +897,6 @@ c	Labf;	Labh;
 	m	a(Ljava/lang/Object;)Labf;	a(Ljava/lang/Object;)Labh;
 		ma	0	0
 	f	a;;Ljava/lang/Object;	a;;Ljava/lang/Object;
-c	Labi;	Labk;
-c	Labj;	Labl;
-c	Labn;	Labp;
-	m	a(Laba;Ljava/util/function/Function;Laay;)Laay;	a(Labc;Ljava/util/function/Function;Laba;)Laba;
-		ma	0	0
-		ma	1	1
-		ma	2	2
 c	Labq;	Ladk;
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
@@ -16408,9 +16302,6 @@ c	Lapd$b;	Laqx$b;
 	m	<init>(Lapd;ZZ)V	<init>(Laqx;Z)V
 		ma	0	0
 		ma	1	1
-	m	<init>(Lapd;Z)V	<init>(Laqx;ZLaqx$1;)V
-		ma	0	0
-		ma	1	1
 	f	a;;Z	a;;Z
 	f	c;;Lapd;	b;;Laqx;
 c	Lapd;	Laqx;
@@ -16446,8 +16337,6 @@ c	Lapd;	Laqx;
 		mv	1	1
 	m	a(I)V	a(I)V
 		ma	0	0
-	m	dI()V	dI()V
-	mu	a	dL()V
 	m	K_()Z	L_()Z
 	m	a(Lafi;F)Z	a(Lahc;F)Z
 		ma	0	0
@@ -16495,7 +16384,6 @@ c	Lapd;	Laqx;
 		ma	1	1
 		ma	2	2
 		mv	0	0
-		mv	1	1
 		mv	2	2
 		mv	3	3
 		mv	4	4
@@ -60534,7 +60422,6 @@ c	Lccj;	Lced;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;J	c;;J
-	f	d;;J	d;;J
 	f	e;;Z	e;;Z
 	f	f;;Laza;	f;;Lbau;
 	f	g;;Z	g;;Z
@@ -67658,99 +67545,6 @@ c	Lcih;	Lckb;
 		ma	0	0
 	m	d(Z)I	d(Z)I
 		ma	0	0
-	f	o;;Lnet/minecraft/realms/RealmsButton;	o;;Lnet/minecraft/realms/RealmsButton;
-cu	a	Lcii;
-c	Lcij;	Lckd;
-	m	<init>(Lnet/minecraft/realms/RealmsScreen;)V	<init>(Lnet/minecraft/realms/RealmsScreen;)V
-		ma	0	0
-	m	a()Lnet/minecraft/realms/RealmsScreen;	a()Lnet/minecraft/realms/RealmsScreen;
-	m	a(Lcfv;II)V	a(Lchp;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	c()V	c()V
-	m	a(Ljava/lang/String;III)V	a(Ljava/lang/String;III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	b(IIIIII)V	b(IIIIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	a(IIIIII)V	a(IIIIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	d()V	d()V
-	m	e()Z	e()Z
-	m	c_(I)V	c_(I)V
-		ma	0	0
-	m	a(IIF)V	a(IIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(Laul;II)V	a(Lawg;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(Ljava/lang/String;II)V	a(Ljava/lang/String;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(Ljava/util/List;II)V	a(Ljava/util/List;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	f()V	f()V
-	m	i()I	i()I
-	m	a(Ljava/lang/String;I)Ljava/util/List;	a(Ljava/lang/String;I)Ljava/util/List;
-		ma	0	0
-		ma	1	1
-	m	a(Lnet/minecraft/realms/RealmsButton;)V	a(Lnet/minecraft/realms/RealmsButton;)V
-		ma	0	0
-	m	k()Ljava/util/List;	k()Ljava/util/List;
-		mv	0	0
-		mv	1	1
-	m	mouseClicked(DDI)Z	mouseClicked(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	mouseReleased(DDI)Z	mouseReleased(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	mouseDragged(DDIDD)Z	mouseDragged(DDIDD)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	keyPressed(III)Z	keyPressed(III)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	charTyped(CI)Z	charTyped(CI)Z
-		ma	0	0
-		ma	1	1
-	m	confirmResult(ZI)V	confirmResult(ZI)V
-		ma	0	0
-		ma	1	1
-	m	n()V	n()V
-	m	a(Lcij;DDI)Z	a(Lckd;DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	f	a;;Lnet/minecraft/realms/RealmsScreen;	a;;Lnet/minecraft/realms/RealmsScreen;
-cu	a	Lcik;
-cu	a	Lcil;
 c	Lcio$1;	Lcki$1;
 	m	<init>(Lcio;IIILjava/lang/String;)V	<init>(Lcki;IIILjava/lang/String;)V
 		ma	0	0
@@ -82275,31 +82069,6 @@ c	Lcti$k;	Lcvc$k;
 	f	a;;Lcti$c;	a;;Lcvc$c;
 	f	b;;Z	b;;Z
 	f	c;;I	c;;I
-c	Lcti$l;	Lcvc$l;
-	m	values()[Lcti$l;	values()[Lcvc$l;
-	m	valueOf(Ljava/lang/String;)Lcti$l;	valueOf(Ljava/lang/String;)Lcvc$l;
-		ma	0	0
-	m	<init>(Ljava/lang/String;II)V	<init>(Ljava/lang/String;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<clinit>()V	<clinit>()V
-	f	a;;Lcti$l;	a;;Lcvc$l;
-	f	b;;Lcti$l;	b;;Lcvc$l;
-	f	c;;Lcti$l;	c;;Lcvc$l;
-	f	d;;Lcti$l;	d;;Lcvc$l;
-	f	e;;Lcti$l;	e;;Lcvc$l;
-	f	f;;Lcti$l;	f;;Lcvc$l;
-	f	g;;Lcti$l;	g;;Lcvc$l;
-	f	h;;Lcti$l;	h;;Lcvc$l;
-	f	i;;Lcti$l;	i;;Lcvc$l;
-	f	j;;Lcti$l;	j;;Lcvc$l;
-	f	k;;Lcti$l;	k;;Lcvc$l;
-	f	l;;Lcti$l;	l;;Lcvc$l;
-	f	m;;Lcti$l;	m;;Lcvc$l;
-	f	n;;Lcti$l;	n;;Lcvc$l;
-	f	o;;I	o;;I
-	f	p;;[Lcti$l;	p;;[Lcvc$l;
 c	Lcti$m;	Lcvc$m;
 	m	values()[Lcti$m;	values()[Lcvc$m;
 	m	valueOf(Ljava/lang/String;)Lcti$m;	valueOf(Ljava/lang/String;)Lcvc$m;
@@ -82395,32 +82164,6 @@ c	Lcti$q;	Lcvc$q;
 	f	b;;Lcti$q;	b;;Lcvc$q;
 	f	c;;Lcti$q;	c;;Lcvc$q;
 	f	d;;[Lcti$q;	d;;[Lcvc$q;
-c	Lcti$r;	Lcvc$r;
-	m	values()[Lcti$r;	values()[Lcvc$r;
-	m	valueOf(Ljava/lang/String;)Lcti$r;	valueOf(Ljava/lang/String;)Lcvc$r;
-		ma	0	0
-	m	<init>(Ljava/lang/String;II)V	<init>(Ljava/lang/String;II)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	<clinit>()V	<clinit>()V
-	f	a;;Lcti$r;	a;;Lcvc$r;
-	f	b;;Lcti$r;	b;;Lcvc$r;
-	f	c;;Lcti$r;	c;;Lcvc$r;
-	f	d;;Lcti$r;	d;;Lcvc$r;
-	f	e;;Lcti$r;	e;;Lcvc$r;
-	f	f;;Lcti$r;	f;;Lcvc$r;
-	f	g;;Lcti$r;	g;;Lcvc$r;
-	f	h;;Lcti$r;	h;;Lcvc$r;
-	f	i;;Lcti$r;	i;;Lcvc$r;
-	f	j;;Lcti$r;	j;;Lcvc$r;
-	f	k;;Lcti$r;	k;;Lcvc$r;
-	f	l;;Lcti$r;	l;;Lcvc$r;
-	f	m;;Lcti$r;	m;;Lcvc$r;
-	f	n;;Lcti$r;	n;;Lcvc$r;
-	f	o;;Lcti$r;	o;;Lcvc$r;
-	f	p;;I	p;;I
-	f	q;;[Lcti$r;	q;;[Lcvc$r;
 c	Lcti$s;	Lcvc$s;
 	m	<init>()V	<init>()V
 	m	<init>(Lcti$1;)V	<init>(Lcvc$1;)V
@@ -87602,7 +87345,8 @@ c	Lcxf;	Lcyz;
 		ma	0	0
 	m	a(Lafx;)Loi;	a(Lahr;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 c	Lcxg$1;	Lcza$1;
 	m	<init>(Lcxg;Lcyw;)V	<init>(Lcza;Ldaq;)V
 		ma	0	0
@@ -87646,7 +87390,8 @@ c	Lcxg;	Lcza;
 		ma	4	4
 		ma	5	5
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	b(Lafz;)Z	b(Laht;)Z
 		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
@@ -87711,7 +87456,8 @@ c	Lcxi;	Lczc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxj;	Lczd;
@@ -87719,7 +87465,8 @@ c	Lcxj;	Lczd;
 		ma	0	0
 	m	a(Lany;)Loi;	a(Laps;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxk;	Lcze;
@@ -87760,7 +87507,8 @@ c	Lcxk;	Lcze;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -87784,7 +87532,8 @@ c	Lcxl;	Lczf;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxm;	Lczg;
@@ -87814,7 +87563,8 @@ c	Lcxm;	Lczg;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -87837,7 +87587,8 @@ c	Lcxn;	Lczh;
 	m	b(Lagi;F)F	b(Laic;F)F
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxo;	Lczi;
@@ -87856,7 +87607,8 @@ c	Lcxo;	Lczi;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxp;	Lczj;
@@ -87864,7 +87616,8 @@ c	Lcxp;	Lczj;
 		ma	0	0
 	m	a(Lala;)Loi;	a(Lamu;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxq;	Lczk;
@@ -87892,7 +87645,8 @@ c	Lcxq;	Lczk;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxr;	Lczl;
@@ -87905,7 +87659,8 @@ c	Lcxr;	Lczl;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 c	Lcxs;	Lczm;
 	m	<init>()V	<init>()V
 		mv	0	0
@@ -87957,7 +87712,8 @@ c	Lcxt;	Lczn;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxu;	Lczo;
@@ -87977,7 +87733,8 @@ c	Lcxu;	Lczo;
 		mv	4	4
 	m	a(Lapu;)Loi;	a(Laro;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -87985,13 +87742,6 @@ c	Lcxu;	Lczo;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	m	<clinit>()V	<clinit>()V
-	f	a;;Loi;	a;;Loj;
-c	Lcxv;	Lczp;
-	m	<init>(Lcyb;)V	<init>(Lczv;)V
-		ma	0	0
-	mu	a	a(Laob;)Loi;
-	mu	a	a(Lafz;)Loi;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxw;	Lczq;
@@ -88005,7 +87755,8 @@ c	Lcxw;	Lczq;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcxx;	Lczr;
@@ -88035,7 +87786,8 @@ c	Lcxx;	Lczr;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88136,7 +87888,8 @@ c	Lcxy;	Lczs;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88179,7 +87932,8 @@ c	Lcxz;	Lczt;
 		ma	4	4
 		ma	5	5
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88219,7 +87973,8 @@ c	Lcya;	Lczu;
 		ma	0	0
 	m	b(Lagi;)F	b(Laic;)F
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcyb;	Lczv;
@@ -88389,7 +88144,8 @@ c	Lcyc;	Lczw;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	d(Lafz;)Z	d(Laht;)Z
 		ma	0	0
 		mv	0	0
@@ -88532,7 +88288,8 @@ c	Lcyd;	Lczx;
 		mv	2	2
 	m	a(Lapv;)Loi;	a(Larp;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88571,7 +88328,8 @@ c	Lcye;	Lczy;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcyf;	Lczz;
@@ -88605,7 +88363,8 @@ c	Lcyf;	Lczz;
 		mv	18	18
 	m	a(Lagf;)Loi;	a(Lahz;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88633,7 +88392,8 @@ c	Lcyg;	Ldaa;
 		mv	5	5
 	m	a(Lans;)Loi;	a(Lapm;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88664,7 +88424,8 @@ c	Lcyh;	Ldab;
 		mv	9	9
 	m	a(Laps;)Loi;	a(Larm;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88725,7 +88486,8 @@ c	Lcyi;	Ldac;
 		mv	39	39
 	m	a(Lann;)Loi;	a(Laph;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88749,7 +88511,8 @@ c	Lcyj;	Ldad;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -88771,7 +88534,8 @@ c	Lcyk;	Ldae;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;F	j;;F
@@ -88867,7 +88631,8 @@ c	Lcyl;	Ldaf;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -88892,7 +88657,8 @@ c	Lcym;	Ldag;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 c	Lcyn;	Ldah;
@@ -88902,7 +88668,8 @@ c	Lcyn;	Ldah;
 		ma	2	2
 	m	a(Lagj;)Loi;	a(Laid;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcyo;	Ldai;
@@ -88919,7 +88686,8 @@ c	Lcyo;	Ldai;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcyp$1;	Ldaj$1;
@@ -88988,7 +88756,8 @@ c	Lcyp;	Ldaj;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDD)V	a(Laht;DDD)V
 		ma	0	0
 		ma	1	1
@@ -89052,7 +88821,8 @@ c	Lcyq;	Ldak;
 		mv	17	17
 	m	a(Lant;)Loi;	a(Lapn;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89098,7 +88868,8 @@ c	Lcyr;	Ldal;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDD)V	a(Laht;DDD)V
 		ma	0	0
 		ma	1	1
@@ -89319,7 +89090,8 @@ c	Lcyt;	Ldan;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lcyu;	Ldao;
@@ -89335,7 +89107,8 @@ c	Lcyu;	Ldao;
 		mv	0	0
 	m	a(Lanj;)Loi;	a(Lapd;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89387,7 +89160,8 @@ c	Lcyv;	Ldap;
 		mv	28	28
 	m	a(Lanq;)Loi;	a(Lapk;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89549,7 +89323,8 @@ c	Lcyx;	Ldar;
 		ma	0	0
 	m	a(Lalz;)Loi;	a(Lant;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Loi;	a;;[Loj;
 c	Lcyy;	Ldas;
@@ -89564,7 +89339,8 @@ c	Lcyy;	Ldas;
 		ma	5	5
 	m	a(Lapz;)Loi;	a(Lart;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89609,7 +89385,8 @@ c	Lcyz;	Ldat;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89747,7 +89524,8 @@ c	Lczc;	Ldaw;
 	m	a(Lald;)Loi;	a(Lamx;)Loj;
 		ma	0	0
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczd;	Ldax;
@@ -89761,7 +89539,8 @@ c	Lczd;	Ldax;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -89825,7 +89604,8 @@ c	Lcze;	Lday;
 		mv	4	4
 		mv	5	5
 		mv	6	6
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89851,7 +89631,8 @@ c	Lczf;	Ldaz;
 	m	b(Lagi;F)F	b(Laic;F)F
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Loi;	a;;[Loj;
 c	Lczg;	Ldba;
@@ -89877,7 +89658,8 @@ c	Lczg;	Ldba;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczh;	Ldbb;
@@ -89885,7 +89667,8 @@ c	Lczh;	Ldbb;
 		ma	0	0
 	m	a(Lalg;)Loi;	a(Lana;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczi$1;	Ldbc$1;
@@ -89901,7 +89684,8 @@ c	Lczi;	Ldbc;
 		ma	0	0
 	m	a(Lagj;)Loi;	a(Laid;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczj;	Ldbd;
@@ -89936,7 +89720,8 @@ c	Lczj;	Ldbd;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -89983,7 +89768,8 @@ c	Lczk;	Ldbe;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90003,7 +89789,8 @@ c	Lczl;	Ldbf;
 	m	a(Lalj;)Loi;	a(Land;)Loj;
 		ma	0	0
 		mv	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -90031,7 +89818,8 @@ c	Lczm;	Ldbg;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczn;	Ldbh;
@@ -90039,7 +89827,8 @@ c	Lczn;	Ldbh;
 		ma	0	0
 	m	a(Lall;)Loi;	a(Lanf;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczo;	Ldbi;
@@ -90063,7 +89852,8 @@ c	Lczo;	Ldbi;
 		mv	3	3
 	m	a(Laqc;)Loi;	a(Larw;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90173,7 +89963,8 @@ c	Lczp;	Ldbj;
 		ma	4	4
 		ma	5	5
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90199,7 +89990,8 @@ c	Lczq;	Ldbk;
 		ma	0	0
 	m	b(Lagi;)F	b(Laic;)F
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczr$1;	Ldbl$1;
@@ -90215,7 +90007,8 @@ c	Lczr;	Ldbl;
 		ma	0	0
 	m	a(Lagj;)Loi;	a(Laid;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczs;	Ldbm;
@@ -90254,7 +90047,8 @@ c	Lczs;	Ldbm;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90271,7 +90065,8 @@ c	Lczt;	Ldbn;
 		ma	0	0
 	m	c()Lcpi;	c()Lcrc;
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczu;	Ldbo;
@@ -90279,7 +90074,8 @@ c	Lczu;	Ldbo;
 		ma	0	0
 	m	a(Laqf;)Loi;	a(Larz;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczv;	Ldbp;
@@ -90291,7 +90087,8 @@ c	Lczv;	Ldbp;
 		ma	0	0
 	m	b(Lagi;)F	b(Laic;)F
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczw;	Ldbq;
@@ -90317,7 +90114,8 @@ c	Lczw;	Ldbq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczx;	Ldbr;
@@ -90327,7 +90125,8 @@ c	Lczx;	Ldbr;
 		ma	0	0
 	m	a(Lagj;)Loi;	a(Laid;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Lczy;	Ldbs;
@@ -90344,7 +90143,8 @@ c	Lczy;	Ldbs;
 		ma	5	5
 	m	e(Lafz;)Laul;	e(Laht;)Lawg;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	f	a;;Lauh;	a;;Lawc;
 	f	f;;Lcys;	f;;Ldam;
 c	Lczz;	Ldbt;
@@ -90457,7 +90257,8 @@ c	Ldaa;	Ldbu;
 		mv	41	41
 		mv	42	42
 		mv	43	43
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90473,7 +90274,8 @@ c	Ldab;	Ldbv;
 		ma	0	0
 	m	a(Lapt;)Loi;	a(Larn;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	f;;Loi;	f;;Loj;
@@ -90508,7 +90310,8 @@ c	Ldad;	Ldbx;
 		mv	3	3
 	m	a(Lanu;)Loi;	a(Lapo;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90554,7 +90357,8 @@ c	Ldae;	Ldby;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90590,7 +90394,8 @@ c	Ldaf;	Ldbz;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90605,7 +90410,8 @@ c	Ldag;	Ldca;
 		ma	0	0
 	m	a(Lalv;)Loi;	a(Lanp;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 c	Ldah;	Ldcb;
@@ -90621,7 +90427,8 @@ c	Ldah;	Ldcb;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -90643,7 +90450,8 @@ c	Ldai;	Ldcc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Ldaj;	Ldcd;
@@ -90660,7 +90468,8 @@ c	Ldaj;	Ldcd;
 		ma	0	0
 		ma	1	1
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -90717,7 +90526,8 @@ c	Ldak;	Ldce;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90762,7 +90572,8 @@ c	Ldal;	Ldcf;
 		ma	4	4
 		ma	5	5
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90786,7 +90597,8 @@ c	Ldam;	Ldcg;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -90803,7 +90615,8 @@ c	Ldan;	Ldch;
 	m	a(Lagi;F)V	a(Laic;F)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Ldao;	Ldci;
@@ -90826,7 +90639,8 @@ c	Ldao;	Ldci;
 		mv	2	2
 	m	a(Laqm;)Loi;	a(Lasg;)Loj;
 		ma	0	0
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90871,7 +90685,8 @@ c	Ldap;	Ldcj;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDFF)V	a(Laht;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -90906,7 +90721,8 @@ c	Ldaq;	Ldck;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 c	Ldar;	Ldcl;
@@ -90926,7 +90742,8 @@ c	Ldar;	Ldcl;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Loi;	a;;Loj;
 	f	j;;Loi;	j;;Loj;
@@ -92017,7 +91834,8 @@ c	Ldcb;	Lddv;
 		ma	4	4
 		ma	5	5
 	m	b()Lcoj;	b()Lcqe;
-	mu	a	a(Lafz;)Loi;
+	m	a(Lafz;)Loi;	a(Laht;)Loj;
+		ma	0	0
 	m	a(Lafz;DDDLjava/lang/String;D)V	a(Laht;DDDLjava/lang/String;D)V
 		ma	0	0
 		ma	1	1
@@ -105096,17 +104914,6 @@ c	Lnet/minecraft/realms/DisconnectedRealmsScreen;	Lnet/minecraft/realms/Disconne
 	f	lines;;Ljava/util/List;	d;;Ljava/util/List;
 	f	parent;;Lnet/minecraft/realms/RealmsScreen;	e;;Lnet/minecraft/realms/RealmsScreen;
 	f	textHeight;;I	f;;I
-c	Lnet/minecraft/realms/Realms;	Lnet/minecraft/realms/Realms;
-	m	<init>()V	<init>()V
-	m	setScreen(Lnet/minecraft/realms/RealmsScreen;)V	a(Lnet/minecraft/realms/RealmsScreen;)V
-		ma	0	0
-	m	setConnectedToRealms(Z)V	a(Z)V
-		ma	0	0
-	m	clearResourcePack()V	n()V
-c	Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;	Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;
-	m	<init>(Lcci;)V	<init>(Lcec;)V
-		ma	0	0
-	f	levelStorageSource;;Lcci;	a;;Lcec;
 c	Lnet/minecraft/realms/RealmsBridge;	Lnet/minecraft/realms/RealmsBridge;
 	m	<init>()V	<init>()V
 	m	switchToRealms(Lcjn;)V	a(Lclh;)V
@@ -105127,10 +104934,6 @@ c	Lnet/minecraft/realms/RealmsBridge;	Lnet/minecraft/realms/RealmsBridge;
 	m	<clinit>()V	<clinit>()V
 	f	LOGGER;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	previousScreen;;Lcjn;	c;;Lclh;
-c	Lnet/minecraft/realms/RealmsBufferBuilder;	Lnet/minecraft/realms/RealmsBufferBuilder;
-	m	<init>(Lcsz;)V	<init>(Lcut;)V
-		ma	0	0
-	f	b;;Lcsz;	a;;Lcut;
 c	Lnet/minecraft/realms/RealmsButton$1;	Lnet/minecraft/realms/RealmsButton$1;
 	m	<init>(Lnet/minecraft/realms/RealmsButton;Lnet/minecraft/realms/RealmsButton;IIILjava/lang/String;)V	<init>(Lnet/minecraft/realms/RealmsButton;Lnet/minecraft/realms/RealmsButton;IIILjava/lang/String;)V
 		ma	0	0
@@ -105143,13 +104946,11 @@ c	Lnet/minecraft/realms/RealmsButton$1;	Lnet/minecraft/realms/RealmsButton$1;
 		ma	0	0
 		ma	1	1
 	f	o;;Lnet/minecraft/realms/RealmsButton;	o;;Lnet/minecraft/realms/RealmsButton;
-cu	a	Lnet/minecraft/realms/RealmsButton$2;
 c	Lnet/minecraft/realms/RealmsButton;	Lnet/minecraft/realms/RealmsButton;
 	m	<init>(IIIIILjava/lang/String;)V	<init>(IIILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		ma	5	3
 	m	getProxy()Lcgw;	a()Lciq;
 	m	render(IIF)V	a(IIF)V
 		ma	0	0
@@ -105167,16 +104968,6 @@ c	Lnet/minecraft/realms/RealmsButton;	Lnet/minecraft/realms/RealmsButton;
 		ma	0	0
 		ma	1	1
 	m	<clinit>()V	<clinit>()V
-	f	WIDGETS_LOCATION;;Loi;	b;;Loj;
-	f	proxy;;Lcih;	a;;Lckb;
-c	Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;	Lnet/minecraft/realms/RealmsScrolledSelectionList;
-cu	a	Lnet/minecraft/realms/RealmsConnect$1;
-c	Lnet/minecraft/realms/RealmsConnect;	Lnet/minecraft/realms/RealmsConnect;
-	m	<init>(Lnet/minecraft/realms/RealmsScreen;)V	<init>(Lnet/minecraft/realms/RealmsScreen;)V
-		ma	0	0
-	m	<clinit>()V	<clinit>()V
-	f	LOGGER;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
-	f	onlineScreen;;Lnet/minecraft/realms/RealmsScreen;	b;;Lnet/minecraft/realms/RealmsScreen;
 c	Lnet/minecraft/realms/RealmsDefaultVertexFormat;	Lnet/minecraft/realms/RealmsDefaultVertexFormat;
 	m	<init>()V	<init>()V
 	m	<clinit>()V	<clinit>()V
@@ -105198,29 +104989,6 @@ c	Lnet/minecraft/realms/RealmsDefaultVertexFormat;	Lnet/minecraft/realms/RealmsD
 	f	ELEMENT_UV1;;Lnet/minecraft/realms/RealmsVertexFormatElement;	p;;Lnet/minecraft/realms/RealmsVertexFormatElement;
 	f	ELEMENT_NORMAL;;Lnet/minecraft/realms/RealmsVertexFormatElement;	q;;Lnet/minecraft/realms/RealmsVertexFormatElement;
 	f	ELEMENT_PADDING;;Lnet/minecraft/realms/RealmsVertexFormatElement;	r;;Lnet/minecraft/realms/RealmsVertexFormatElement;
-c	Lnet/minecraft/realms/RealmsEditBox;	Lnet/minecraft/realms/RealmsEditBox;
-	m	charTyped(CI)Z	a(CI)Z
-		ma	0	0
-		ma	1	1
-	m	keyPressed(III)Z	a(III)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	mouseClicked(DDI)Z	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	mouseReleased(DDI)Z	b(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	mouseDragged(DDIDD)Z	a(DDIDD)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	f	editBox;;Lcha;	a;;Lciu;
 c	Lnet/minecraft/realms/RealmsGuiEventListener;	Lnet/minecraft/realms/RealmsGuiEventListener;
 	m	<init>()V	<init>()V
 	m	mouseClicked(DDI)Z	a(DDI)Z
@@ -105256,58 +105024,18 @@ c	Lnet/minecraft/realms/RealmsLevelSummary;	Lnet/minecraft/realms/RealmsLevelSum
 	f	levelSummary;;Lccj;	a;;Lced;
 c	Lnet/minecraft/realms/RealmsMth;	Lnet/minecraft/realms/RealmsMth;
 	m	<init>()V	<init>()V
-c	Lnet/minecraft/realms/RealmsScreen;	Lnet/minecraft/realms/RealmsScreen;
-	m	<init>()V	<init>()V
-	m	getProxy()Lcij;	b()Lckd;
-	m	init()V	a()V
-	m	init(Lcfv;II)V	a(Lchp;II)V
+c	Lnet/minecraft/realms/RealmsVertexFormat;	Lnet/minecraft/realms/RealmsVertexFormat;
+	m	<init>(Lddj;)V	<init>(Ldfd;)V
 		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	drawCenteredString(Ljava/lang/String;III)V	a(Ljava/lang/String;III)V
+	m	from(Lddj;)Lnet/minecraft/realms/RealmsVertexFormat;	a(Ldfd;)Lnet/minecraft/realms/RealmsVertexFormat;
 		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	blit(IIIIII)V	a(IIIIII)V
+	m	addElement(Lnet/minecraft/realms/RealmsVertexFormatElement;)Lnet/minecraft/realms/RealmsVertexFormat;	a(Lnet/minecraft/realms/RealmsVertexFormatElement;)Lnet/minecraft/realms/RealmsVertexFormat;
 		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	renderBackground()V	c()V
-	m	render(IIF)V	a(IIF)V
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
-	m	tick()V	e()V
-	m	width()I	g()I
-	m	height()I	h()I
-	m	fontLineHeight()I	i()I
-	m	fontSplit(Ljava/lang/String;I)Ljava/util/List;	a(Ljava/lang/String;I)Ljava/util/List;
-		ma	0	0
-		ma	1	1
-	m	buttonsAdd(Lnet/minecraft/realms/RealmsButton;)V	a(Lnet/minecraft/realms/RealmsButton;)V
-		ma	0	0
-	m	confirmResult(ZI)V	a(ZI)V
-		ma	0	0
-		ma	1	1
-	m	getLocalizedString(Ljava/lang/String;)Ljava/lang/String;	c(Ljava/lang/String;)Ljava/lang/String;
-		ma	0	0
-	m	removed()V	o()V
-	f	minecraft;;Lcfv;	a;;Lchp;
-	f	proxy;;Lcij;	b;;Lckd;
-cu	a	Lnet/minecraft/realms/RealmsScrolledSelectionList;
-c	Lnet/minecraft/realms/RealmsServerAddress;	Lnet/minecraft/realms/RealmsServerAddress;
-c	Lnet/minecraft/realms/RealmsSharedConstants;	Lnet/minecraft/realms/RealmsSharedConstants;
-	m	<init>()V	<init>()V
-	m	<clinit>()V	<clinit>()V
-	f	ILLEGAL_FILE_CHARACTERS;;[C	a;;[C
-c	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;
-c	Lnet/minecraft/realms/RealmsSliderButton;	Lnet/minecraft/realms/RealmsSliderButton;
-cu	a	Lnet/minecraft/realms/RealmsVertexFormat;
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	v;;Lddj;	a;;Ldfd;
 c	Lnet/minecraft/realms/RealmsVertexFormatElement;	Lnet/minecraft/realms/RealmsVertexFormatElement;
 	m	<init>(Lddk;)V	<init>(Ldfe;)V
 		ma	0	0
@@ -105317,11 +105045,6 @@ c	Lnet/minecraft/realms/RealmsVertexFormatElement;	Lnet/minecraft/realms/RealmsV
 		ma	0	0
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	v;;Lddk;	a;;Ldfe;
-c	Lnet/minecraft/realms/Tezzelator;	Lnet/minecraft/realms/Tezzelator;
-	m	<init>()V	<init>()V
-	m	<clinit>()V	<clinit>()V
-	f	t;;Lctt;	a;;Lcvn;
-	f	instance;;Lnet/minecraft/realms/Tezzelator;	b;;Lnet/minecraft/realms/Tezzelator;
 c	Lnet/minecraft/server/MinecraftServer$1;	Lnet/minecraft/server/MinecraftServer$1;
 	m	<init>(Lnet/minecraft/server/MinecraftServer;)V	<init>(Lnet/minecraft/server/MinecraftServer;)V
 		ma	0	0
@@ -105757,19 +105480,6 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	f	al;;Lou;	al;;Lov;
 	f	am;;Lov;	am;;Low;
 	f	an;;Z	an;;Z
-cu	a	Lnet/minecraft/util/datafix/optics/Adapter$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/Adapter$Mu;
-c	Lnet/minecraft/util/datafix/optics/Adapter;	Labr;
-	m	from(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-	m	to(Ljava/lang/Object;)Ljava/lang/Object;	b(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-	m	eval(Laay;)Lxp;	eval(Laba;)Lxq;
-		ma	0	0
-		mv	0	0
-	m	lambda$eval$0(Lnet/minecraft/util/datafix/optics/profunctors/Profunctor;Laaz;)Laaz;	a(Ladd;Labb;)Labb;
-		ma	0	0
-		ma	1	1
 c	Lnet/minecraft/util/datafix/optics/Affine$Instance;	Labs$a;
 	m	<init>()V	<init>()V
 	m	dimap(Ljava/util/function/Function;Ljava/util/function/Function;)Lxp;	a(Ljava/util/function/Function;Ljava/util/function/Function;)Lxq;
@@ -105841,7 +105551,6 @@ c	Lnet/minecraft/util/datafix/optics/Affine$Instance;	Labs$a;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-cu	a	Lnet/minecraft/util/datafix/optics/Affine$Mu;
 c	Lnet/minecraft/util/datafix/optics/Affine;	Labs;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/Affine;	a(Labb;)Labs;
 		ma	0	0
@@ -105886,18 +105595,12 @@ c	Lnet/minecraft/util/datafix/optics/Forget$Instance;	Labt$a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lnet/minecraft/util/datafix/optics/Forget$Mu;
 c	Lnet/minecraft/util/datafix/optics/Forget;	Labt;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/Forget;	unbox(Labb;)Labt;
 		ma	0	0
 	m	run(Ljava/lang/Object;)Ljava/lang/Object;	run(Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
-c	Lnet/minecraft/util/datafix/optics/ForgetE$Instance$Mu;	Labv$a$a;
-	m	<init>()V	<init>()V
-cu	a	Lnet/minecraft/util/datafix/optics/ForgetE$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/ForgetE$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ForgetE;
-c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance$Mu;	Lacm$a$a;
+c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance$Mu;	Labv$a$a;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance;	Labv$a;
 	m	<init>()V	<init>()V
@@ -105926,24 +105629,13 @@ c	Lnet/minecraft/util/datafix/optics/ForgetOpt$Instance;	Labv$a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lnet/minecraft/util/datafix/optics/ForgetOpt$Mu;
 c	Lnet/minecraft/util/datafix/optics/ForgetOpt;	Labv;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/ForgetOpt;	unbox(Labb;)Labv;
 		ma	0	0
 	m	run(Ljava/lang/Object;)Ljava/util/Optional;	run(Ljava/lang/Object;)Ljava/util/Optional;
 		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/Getter$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/Getter$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/Getter;
-cu	a	Lnet/minecraft/util/datafix/optics/Grate$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/Grate$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/Grate;
 c	Lnet/minecraft/util/datafix/optics/IdAdapter;	Laby;
 	m	<init>()V	<init>()V
-	m	from(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-	m	to(Ljava/lang/Object;)Ljava/lang/Object;	b(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
@@ -105992,7 +105684,6 @@ c	Lnet/minecraft/util/datafix/optics/InjTagged;	Lacb;
 	m	match(Ljava/lang/Object;)Lwn;	c(Ljava/lang/Object;)Lwo;
 		ma	0	0
 	f	key;;Ljava/lang/Object;	a;;Ljava/lang/Object;
-cu	a	Lnet/minecraft/util/datafix/optics/Lens$Box;
 c	Lnet/minecraft/util/datafix/optics/Lens$Instance;	Lacc$b;
 	m	<init>()V	<init>()V
 	m	dimap(Ljava/util/function/Function;Ljava/util/function/Function;)Lxp;	a(Ljava/util/function/Function;Ljava/util/function/Function;)Lxq;
@@ -106021,8 +105712,6 @@ c	Lnet/minecraft/util/datafix/optics/Lens$Instance;	Lacc$b;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lnet/minecraft/util/datafix/optics/Lens$Mu2;
-cu	a	Lnet/minecraft/util/datafix/optics/Lens$Mu;
 c	Lnet/minecraft/util/datafix/optics/Lens;	Lacc;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/Lens;	a(Labb;)Lacc;
 		ma	0	0
@@ -106086,26 +105775,16 @@ c	Lnet/minecraft/util/datafix/optics/Optic;	Lace;
 	m	lambda$upCast$0(Lcom/google/common/reflect/TypeToken;Lcom/google/common/reflect/TypeToken;)Z	a(Lcom/google/common/reflect/TypeToken;Lcom/google/common/reflect/TypeToken;)Z
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$10;
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$11;
 c	Lnet/minecraft/util/datafix/optics/Optics$1;	Lacf$1;
 	m	<init>()V	<init>()V
 	m	wander(Laba;Lxp;)Lxp;	a(Labc;Lxq;)Lxq;
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$2;
-c	Lnet/minecraft/util/datafix/optics/Optics$3;	Lacf$5;
-	m	<init>(Ljava/util/function/Function;Ljava/util/function/BiFunction;)V	<init>(Ljava/util/function/Function;Ljava/util/function/BiFunction;)V
+c	Lnet/minecraft/util/datafix/optics/Optics$2;	Lacf$5;
+	m	<init>(Ljava/util/function/Function;Ljava/util/function/Function;)V	<init>(Ljava/util/function/Function;Ljava/util/function/BiFunction;)V
 		ma	0	0
 		ma	1	1
-	m	view(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-	m	update(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-		ma	1	1
-	f	val$view;;Ljava/util/function/Function;	a;;Ljava/util/function/Function;
-	f	val$update;;Ljava/util/function/BiFunction;	b;;Ljava/util/function/BiFunction;
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$4;
+	f	val$from;;Ljava/util/function/Function;	a;;Ljava/util/function/Function;
 c	Lnet/minecraft/util/datafix/optics/Optics$5;	Lacf$7;
 	m	<init>(Ljava/util/function/Function;Ljava/util/function/BiFunction;)V	<init>(Ljava/util/function/Function;Ljava/util/function/BiFunction;)V
 		ma	0	0
@@ -106117,9 +105796,6 @@ c	Lnet/minecraft/util/datafix/optics/Optics$5;	Lacf$7;
 		ma	1	1
 	f	val$preview;;Ljava/util/function/Function;	a;;Ljava/util/function/Function;
 	f	val$build;;Ljava/util/function/BiFunction;	b;;Ljava/util/function/BiFunction;
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$6;
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$7;
-cu	a	Lnet/minecraft/util/datafix/optics/Optics$8;
 c	Lnet/minecraft/util/datafix/optics/Optics$9;	Lacf$11;
 	m	<init>(Lwn;Ljava/lang/String;)V	<init>(Lwo;Ljava/lang/String;)V
 		ma	0	0
@@ -106139,15 +105815,12 @@ c	Lnet/minecraft/util/datafix/optics/Optics;	Lacf;
 		ma	0	0
 		mv	0	0
 	m	id()Lnet/minecraft/util/datafix/optics/Adapter;	a()Labr;
-	m	lens(Ljava/util/function/Function;Ljava/util/function/BiFunction;)Lnet/minecraft/util/datafix/optics/Lens;	a(Ljava/util/function/Function;Ljava/util/function/BiFunction;)Lacc;
-		ma	0	0
-		ma	1	1
 	m	affine(Ljava/util/function/Function;Ljava/util/function/BiFunction;)Lnet/minecraft/util/datafix/optics/Affine;	b(Ljava/util/function/Function;Ljava/util/function/BiFunction;)Labs;
 		ma	0	0
 		ma	1	1
 	m	forget(Ljava/util/function/Function;)Lnet/minecraft/util/datafix/optics/Forget;	b(Ljava/util/function/Function;)Labt;
 		ma	0	0
-	m	forgetE(Ljava/util/function/Function;)Lnet/minecraft/util/datafix/optics/ForgetE;	c(Ljava/util/function/Function;)Labv;
+	m	forgetOpt(Ljava/util/function/Function;)Lnet/minecraft/util/datafix/optics/ForgetOpt;	c(Ljava/util/function/Function;)Labv;
 		ma	0	0
 	m	reForgetC(Ljava/lang/String;Lwn;)Lnet/minecraft/util/datafix/optics/ReForgetC;	a(Ljava/lang/String;Lwo;)Lacm;
 		ma	0	0
@@ -106166,16 +105839,6 @@ c	Lnet/minecraft/util/datafix/optics/Optics;	Lacf;
 	m	lambda$toLens$0(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	b(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/PStore$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/PStore$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/PStore$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/PStore;
-cu	a	Lnet/minecraft/util/datafix/optics/Prism$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/Prism$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/Prism;
-cu	a	Lnet/minecraft/util/datafix/optics/Procompose$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/Procompose$ProfunctorInstance;
-cu	a	Lnet/minecraft/util/datafix/optics/Procompose;
 c	Lnet/minecraft/util/datafix/optics/Proj1;	Lacj;
 	m	<init>()V	<init>()V
 	m	view(Lwx;)Ljava/lang/Object;	a(Lwy;)Ljava/lang/Object;
@@ -106206,11 +105869,8 @@ c	Lnet/minecraft/util/datafix/optics/Proj2;	Lack;
 		ma	1	1
 	m	view(Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/ReForget$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForget$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForget$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForget;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetC$Instance$Mu;
+c	Lnet/minecraft/util/datafix/optics/ReForgetC$Instance$Mu;	Lacm$a$a;
+	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/ReForgetC$Instance;	Lacm$a;
 	m	<init>()V	<init>()V
 	m	dimap(Ljava/util/function/Function;Ljava/util/function/Function;)Lxp;	a(Ljava/util/function/Function;Ljava/util/function/Function;)Lxq;
@@ -106285,7 +105945,6 @@ c	Lnet/minecraft/util/datafix/optics/ReForgetC$Instance;	Lacm$a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetC$Mu;
 c	Lnet/minecraft/util/datafix/optics/ReForgetC;	Lacm;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/ReForgetC;	a(Labb;)Lacm;
 		ma	0	0
@@ -106300,22 +105959,49 @@ c	Lnet/minecraft/util/datafix/optics/ReForgetC;	Lacm;
 	m	lambda$run$0(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;	a(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetE$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetE$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetE$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetE;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetEP$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetEP$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetEP$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetEP;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetP$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetP$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetP$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/ReForgetP;
-cu	a	Lnet/minecraft/util/datafix/optics/Traversal$Instance$1;
-cu	a	Lnet/minecraft/util/datafix/optics/Traversal$Instance$2;
-cu	a	Lnet/minecraft/util/datafix/optics/Traversal$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/Traversal$Mu;
+c	Lnet/minecraft/util/datafix/optics/Traversal$Instance$1;	Lacq$a$1;
+	m	<init>(Lnet/minecraft/util/datafix/optics/Traversal$Instance;Ljava/util/function/Function;Laaz;Ljava/util/function/Function;)V	<init>(Lacq$a;Ljava/util/function/Function;Labb;Ljava/util/function/Function;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	wander(Laba;Lxp;)Lxp;	a(Labc;Lxq;)Lxq;
+		ma	0	0
+		ma	1	1
+	m	lambda$wander$0(Laba;Ljava/util/function/Function;Laaz;Lxp;Ljava/util/function/Function;Ljava/lang/Object;)Laay;	a(Labc;Ljava/util/function/Function;Labb;Lxq;Ljava/util/function/Function;Ljava/lang/Object;)Laba;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	f	val$h;;Ljava/util/function/Function;	a;;Ljava/util/function/Function;
+	f	val$tr;;Laaz;	b;;Labb;
+	f	val$g;;Ljava/util/function/Function;	c;;Ljava/util/function/Function;
+	f	this$0;;Lnet/minecraft/util/datafix/optics/Traversal$Instance;	d;;Lacq$a;
+c	Lnet/minecraft/util/datafix/optics/Traversal$Instance$2;	Lacq$a$2;
+	m	<init>(Lnet/minecraft/util/datafix/optics/Traversal$Instance;Lnet/minecraft/util/datafix/optics/Wander;Laaz;)V	<init>(Lacq$a;Lacr;Labb;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	wander(Laba;Lxp;)Lxp;	a(Labc;Lxq;)Lxq;
+		ma	0	0
+		ma	1	1
+	f	val$wander;;Lnet/minecraft/util/datafix/optics/Wander;	a;;Lacr;
+	f	val$input;;Laaz;	b;;Labb;
+	f	this$0;;Lnet/minecraft/util/datafix/optics/Traversal$Instance;	c;;Lacq$a;
+c	Lnet/minecraft/util/datafix/optics/Traversal$Instance;	Lacq$a;
+	m	<init>()V	<init>()V
+	m	dimap(Ljava/util/function/Function;Ljava/util/function/Function;)Lxp;	a(Ljava/util/function/Function;Ljava/util/function/Function;)Lxq;
+		ma	0	0
+		ma	1	1
+	m	wander(Lnet/minecraft/util/datafix/optics/Wander;Laaz;)Laaz;	a(Lacr;Labb;)Labb;
+		ma	0	0
+		ma	1	1
+	m	lambda$dimap$0(Ljava/util/function/Function;Ljava/util/function/Function;Laaz;)Laaz;	a(Ljava/util/function/Function;Ljava/util/function/Function;Labb;)Labb;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 c	Lnet/minecraft/util/datafix/optics/Traversal;	Lacq;
 	m	unbox(Laaz;)Lnet/minecraft/util/datafix/optics/Traversal;	a(Labb;)Lacq;
 		ma	0	0
@@ -106329,34 +106015,17 @@ c	Lnet/minecraft/util/datafix/optics/Wander;	Lacr;
 	m	wander(Laba;Lxp;)Lxp;	a(Labc;Lxq;)Lxq;
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/package-info;
 c	Lnet/minecraft/util/datafix/optics/profunctors/AffineP$Mu$1;	Lact$a$1;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/profunctors/AffineP$Mu;	Lact$a;
 	m	<clinit>()V	<clinit>()V
 	f	TYPE_TOKEN;;Lcom/google/common/reflect/TypeToken;	b;;Lcom/google/common/reflect/TypeToken;
 c	Lnet/minecraft/util/datafix/optics/profunctors/AffineP;	Lact;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Bicontravariant$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Bicontravariant;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Cartesian$1;
 c	Lnet/minecraft/util/datafix/optics/profunctors/Cartesian$Mu$1;	Lacv$a$1;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/profunctors/Cartesian$Mu;	Lacv$a;
 	m	<clinit>()V	<clinit>()V
 	f	TYPE_TOKEN;;Lcom/google/common/reflect/TypeToken;	c;;Lcom/google/common/reflect/TypeToken;
-c	Lnet/minecraft/util/datafix/optics/profunctors/Cartesian;	Lacv;
-	m	unbox(Laay;)Lnet/minecraft/util/datafix/optics/profunctors/Cartesian;	b(Laba;)Lacv;
-		ma	0	0
-	m	first(Laaz;)Laaz;	a(Labb;)Labb;
-		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Closed$Mu$1;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Closed$Mu;
-c	Lnet/minecraft/util/datafix/optics/profunctors/Closed;	Lacw;
-	m	unbox(Laay;)Lnet/minecraft/util/datafix/optics/profunctors/Closed;	b(Laba;)Lacw;
-		ma	0	0
-	m	closed(Laaz;)Laaz;	a(Labb;)Labb;
-		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Cocartesian$1;
 c	Lnet/minecraft/util/datafix/optics/profunctors/Cocartesian$Mu$1;	Lacx$a$1;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/profunctors/Cocartesian$Mu;	Lacx$a;
@@ -106369,26 +106038,6 @@ c	Lnet/minecraft/util/datafix/optics/profunctors/Cocartesian;	Lacx;
 		ma	0	0
 	m	right(Laaz;)Laaz;	d(Labb;)Labb;
 		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/FunctorProfunctor$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/FunctorProfunctor;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/GetterP$Mu;
-c	Lnet/minecraft/util/datafix/optics/profunctors/GetterP;	Lacz;
-	m	unbox(Laay;)Lnet/minecraft/util/datafix/optics/profunctors/GetterP;	c(Laba;)Lacz;
-		ma	0	0
-	m	secondPhantom(Laaz;)Laaz;	a(Labb;)Labb;
-		ma	0	0
-	m	lambda$secondPhantom$2(Ljava/lang/Object;)Ljava/lang/Void;	a(Ljava/lang/Object;)Ljava/lang/Void;
-		ma	0	0
-	m	lambda$secondPhantom$1(Laaz;)Laaz;	b(Labb;)Labb;
-		ma	0	0
-	m	lambda$null$0(Ljava/lang/Object;)Ljava/lang/Void;	b(Ljava/lang/Object;)Ljava/lang/Void;
-		ma	0	0
-c	Lnet/minecraft/util/datafix/optics/profunctors/Mapping$Mu;	Lada$a;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Mapping;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/MonoidProfunctor$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/MonoidProfunctor;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Monoidal$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/Monoidal;
 c	Lnet/minecraft/util/datafix/optics/profunctors/Profunctor$Mu$1;	Ladd$a$1;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/profunctors/Profunctor$Mu;	Ladd$a;
@@ -106410,14 +106059,6 @@ c	Lnet/minecraft/util/datafix/optics/profunctors/Profunctor;	Ladd;
 	m	rmap(Laaz;Ljava/util/function/Function;)Laaz;	b(Labb;Ljava/util/function/Function;)Labb;
 		ma	0	0
 		ma	1	1
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper$Instance$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper$Instance;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ProfunctorFunctorWrapper;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCartesian$Mu;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCartesian;
-c	Lnet/minecraft/util/datafix/optics/profunctors/ReCocartesian$Mu;	Ladg$a;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/ReCocartesian;
 c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$1;	Ladh$1;
 	m	<init>(Lnet/minecraft/util/datafix/optics/profunctors/TraversalP;Labn;)V	<init>(Ladh;Labp;)V
 		ma	0	0
@@ -106432,7 +106073,6 @@ c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$1;	Ladh$1;
 		ma	3	3
 	f	val$traversable;;Labn;	a;;Labp;
 	f	this$0;;Lnet/minecraft/util/datafix/optics/profunctors/TraversalP;	b;;Ladh;
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$2;
 c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$Mu$1;	Ladh$a$1;
 	m	<init>()V	<init>()V
 c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP$Mu;	Ladh$a;
@@ -106455,7 +106095,6 @@ c	Lnet/minecraft/util/datafix/optics/profunctors/TraversalP;	Ladh;
 		ma	0	0
 	m	lambda$first$0(Lwx;)Laay;	a(Lwy;)Laba;
 		ma	0	0
-cu	a	Lnet/minecraft/util/datafix/optics/profunctors/package-info;
 c	Lng;	Lng;
 	m	a(Lni;)V	a(Lni;)V
 		ma	0	0
@@ -107476,40 +107115,6 @@ c	Lol$17;	Lom$17;
 		ma	2	2
 	m	a()F	a()F
 	m	b()F	b()F
-c	Lol$18$1;	Lom$18$1;
-	m	<init>(Lol$18;Laul;)V	<init>(Lom$18;Lawg;)V
-		ma	0	0
-		ma	1	1
-	m	a(Lazd;Lev;Laul;)Laqa;	a(Lbax;Lev;Lawg;)Laru;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a()F	a()F
-	m	b()F	b()F
-	f	b;;Laul;	b;;Lawg;
-	f	c;;Lol$18;	c;;Lom$18;
-c	Lol$18;	Lom$18;
-	m	<init>()V	<init>()V
-	m	a(Leg;Laul;)Laul;	a(Leg;Lawg;)Lawg;
-		ma	0	0
-		ma	1	1
-c	Lol$19$1;	Lom$19$1;
-	m	<init>(Lol$19;Laul;)V	<init>(Lom$19;Lawg;)V
-		ma	0	0
-		ma	1	1
-	m	a(Lazd;Lev;Laul;)Laqa;	a(Lbax;Lev;Lawg;)Laru;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a()F	a()F
-	m	b()F	b()F
-	f	b;;Laul;	b;;Lawg;
-	f	c;;Lol$19;	c;;Lom$19;
-c	Lol$19;	Lom$19;
-	m	<init>()V	<init>()V
-	m	a(Leg;Laul;)Laul;	a(Leg;Lawg;)Lawg;
-		ma	0	0
-		ma	1	1
 c	Lol$1;	Lom$1;
 	m	<init>()V	<init>()V
 	m	a(Lazd;Lev;Laul;)Laqa;	a(Lbax;Lev;Lawg;)Laru;
