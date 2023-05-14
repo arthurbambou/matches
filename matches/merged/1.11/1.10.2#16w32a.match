@@ -1,4 +1,4 @@
-Matches saved 2023-05-14, status: c:2922/2980 m:22208/22798 f:10554/10813 ma:29668/30749, input files:
+Matches saved 2023-05-14, status: c:2972/2980 m:22605/22798 f:10738/10813 ma:30079/30749, input files:
 	a:
 		8890642	SHA256	ErqMRgqAYzp+QrP+LDEJWb914ni/dqK105QVLyd7+7Q=	minecraft-merged-1.10.2.jar
 	b:
@@ -116,6 +116,7 @@ c	La;	La;
 	f	u;;La;	u;;La;
 	f	v;;La;	v;;La;
 	f	w;;Ljava/util/Map;	w;;Ljava/util/Map;
+	f	x;;Ljava/util/regex/Pattern;	x;;Ljava/util/regex/Pattern;
 	f	y;;Ljava/lang/String;	y;;Ljava/lang/String;
 	f	z;;C	z;;C
 	f	A;;Z	A;;Z
@@ -865,6 +866,7 @@ c	Laap;	Labh;
 		ma	0	0
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	a(DZLars;Lcm;)V	a(DZLasj;Lcn;)V
 		ma	0	0
 		ma	1	1
@@ -1102,6 +1104,9 @@ c	Laaq;	Labi;
 		mv	19	19
 	m	bp()Lbby;	bp()Lbcp;
 		mv	0	0
+	m	a(Lpd;Ljava/lang/String;)V	a(Lpf;Ljava/lang/Class;)V
+		ma	0	0
+		ma	1	1
 	m	a(Ldr;)V	a(Ldt;)V
 		ma	0	0
 		mv	0	0
@@ -1239,6 +1244,7 @@ c	Laas;	Labk;
 		ma	3	3
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	a(Lkh;)V	a(Lkj;)V
 		ma	0	0
 	m	bu()Z	bu()Z
@@ -1286,10 +1292,14 @@ c	Laat;	Labl;
 	m	T()V	T()V
 	m	b(Z)V	b(Z)V
 		ma	0	0
+	m	b(Lpd;Ljava/lang/String;)V	b(Lpf;Ljava/lang/Class;)V
+		ma	0	0
+		ma	1	1
 	m	b(Ldr;)V	b(Ldt;)V
 		ma	0	0
 		mv	0	0
 		mv	1	1
+		mv	2	3
 	m	a(Ldr;)V	a(Ldt;)V
 		ma	0	0
 		mv	0	0
@@ -1298,6 +1308,7 @@ c	Laat;	Labl;
 		mv	3	3
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	r()V	r()V
 		mv	0	0
 		mv	1	1
@@ -1322,6 +1333,7 @@ c	Laat;	Labl;
 		ma	0	0
 		ma	1	1
 	m	b()Lkn;	b()Lkp;
+	f	a;;[Ladz;	a;;Ldc;
 	f	b;;Z	b;;Z
 	f	c;;Lkn;	c;;Lkp;
 	f	d;;J	d;;J
@@ -1351,6 +1363,7 @@ c	Laau;	Labm;
 		mv	1	1
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	b(Ldr;)V	b(Ldt;)V
 		ma	0	0
 	m	a(Ldr;)V	a(Ldt;)V
@@ -1378,6 +1391,7 @@ c	Laav;	Labn;
 	m	u_()I	t_()I
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	a(IIIZ)V	a(IIIZ)V
 		ma	0	0
 		ma	1	1
@@ -1425,6 +1439,7 @@ c	Laaw;	Labo;
 		ma	0	0
 	m	a(Lzs;Ladz;Lqr;)Z	b(Laak;Lqz;)Z
 		ma	0	0
+		ma	2	1
 	m	a(IIIZ)V	a(IIIZ)V
 		ma	0	0
 		ma	1	1
@@ -1612,8 +1627,10 @@ c	Labd;	Labv;
 		mv	7	8
 		mv	8	9
 		mv	9	10
+		mv	10	12
 		mv	11	13
 		mv	12	4
+		mv	13	14
 		mv	14	15
 		mv	15	16
 		mv	16	17
@@ -1636,6 +1653,9 @@ c	Labd;	Labv;
 		mv	33	34
 		mv	34	35
 		mv	35	36
+		mv	36	37
+		mv	37	39
+		mv	38	40
 	m	a(Ladz;Lacc;)Z	a(Laeq;Lact;)Z
 		ma	0	0
 		ma	1	1
@@ -1652,6 +1672,9 @@ c	Labd;	Labv;
 	m	a(ILadz;)V	a(ILaeq;)V
 		ma	0	0
 		ma	1	1
+	m	a([Ladz;)V	a(Ljava/util/List;)V
+		ma	0	0
+		mv	0	0
 	m	b(II)V	b(II)V
 		ma	0	0
 		ma	1	1
@@ -1664,6 +1687,18 @@ c	Labd;	Labv;
 		ma	1	1
 	m	a(Lzs;)Z	a(Laak;)Z
 		ma	0	0
+	m	a(Ladz;IIZ)Z	a(Laeq;IIZ)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
 	m	b(I)I	b(I)I
 		ma	0	0
 	m	c(I)I	c(I)I
@@ -1680,6 +1715,11 @@ c	Labd;	Labv;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	m	a(Ljava/util/Set;ILadz;I)V	a(Ljava/util/Set;ILaeq;I)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	b(Lacc;)Z	b(Lact;)Z
 		ma	0	0
 	m	a(Laqk;)I	a(Larb;)I
@@ -1690,6 +1730,7 @@ c	Labd;	Labv;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	f	b;;Ljava/util/List;	b;;Ldc;
 	f	c;;Ljava/util/List;	c;;Ljava/util/List;
 	f	d;;I	d;;I
 	f	a;;S	a;;S
@@ -2015,6 +2056,7 @@ c	Labl;	Lacc;
 	m	l()V	l()V
 	m	h()I	h()I
 	m	i()I	i()I
+	f	a;;[Ladz;	a;;Ldc;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;Labd;	d;;Labv;
@@ -2039,6 +2081,7 @@ c	Labm;	Lacd;
 	m	b(Lzs;I)Ladz;	b(Laak;I)Laeq;
 		ma	0	0
 		ma	1	1
+		mv	0	0
 		mv	1	1
 		mv	2	2
 	m	a(Ladz;Lacc;)Z	a(Laeq;Lact;)Z
@@ -2309,6 +2352,7 @@ c	Labu$1;	Lacm$1;
 		ma	5	5
 	m	a()I	a()I
 	m	a(Ladz;)Z	a(Laeq;)Z
+		ma	0	0
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
 	f	a;;Lsb;	a;;Lsj;
 	f	b;;Labu;	b;;Lacm;
@@ -2368,6 +2412,7 @@ c	Labw;	Lacn;
 	m	a(II)Ladz;	a(II)Laeq;
 		ma	0	0
 		ma	1	1
+		mv	0	1
 	m	e(I)Z	e(I)Z
 		ma	0	0
 	m	b(I)Ladz;	b(I)Laeq;
@@ -2405,6 +2450,7 @@ c	Labw;	Lacn;
 	m	g()I	g()I
 	m	l()V	l()V
 	f	a;;Laho;	a;;Laif;
+	f	b;;[Ladz;	b;;Ldc;
 	f	c;;Lzs;	c;;Laak;
 	f	d;;Lahp;	d;;Laig;
 	f	e;;I	e;;I
@@ -2462,7 +2508,14 @@ c	Laby;	Lacp;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+		mv	1	1
 		mv	2	2
+	m	a(Lahp;Ladz;Ladz;)Z	a(Laig;Laeq;Laeq;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
 	f	a;;Labw;	a;;Lacn;
 	f	b;;Lzs;	b;;Laak;
 	f	c;;I	c;;I
@@ -2550,6 +2603,7 @@ c	Laca;	Lacr;
 		ma	1	1
 	m	g()I	g()I
 	m	l()V	l()V
+	f	a;;[Ladz;	a;;Ldc;
 c	Lacb;	Lacs;
 	m	<init>(Lzs;Labl;Lql;III)V	<init>(Laak;Lacc;Lqt;III)V
 		ma	0	0
@@ -2570,6 +2624,7 @@ c	Lacb;	Lacs;
 	m	a(Lzs;Ladz;)V	a(Laak;Laeq;)Laeq;
 		ma	0	0
 		ma	1	1
+		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
@@ -2628,6 +2683,7 @@ c	Lacf$1;	Lacw$1;
 	m	b(Lcn;Ladz;)Ladz;	b(Lco;Laeq;)Laeq;
 		ma	0	0
 		ma	1	1
+		mv	0	0
 c	Lacf$a;	Lacw$a;
 	m	values()[Lacf$a;	values()[Lacw$a;
 	m	valueOf(Ljava/lang/String;)Lacf$a;	valueOf(Ljava/lang/String;)Lacw$a;
@@ -2698,6 +2754,12 @@ c	Lacf;	Lacw;
 	m	a(Ladz;Ladz;)Z	a(Laeq;Laeq;)Z
 		ma	0	0
 		ma	1	1
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
+		mv	1	2
 	m	a(Lsb;)Lcom/google/common/collect/Multimap;	a(Lsj;)Lcom/google/common/collect/Multimap;
 		ma	0	0
 		mv	0	0
@@ -2715,8 +2777,16 @@ c	Lacf;	Lacw;
 c	Lacg;	Lacx;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Lzs;Laid;Lcm;Lqr;Lct;FFF)Lqt;	a(Laak;Laiu;Lcn;Lqz;Lcu;FFF)Lrb;
-		ma	6	6
-		ma	7	7
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		ma	4	3
+		ma	5	4
+		ma	6	5
+		ma	7	6
+		ma	8	7
+		mv	0	0
+		mv	1	1
 		mv	2	3
 		mv	3	4
 		mv	4	5
@@ -2753,8 +2823,16 @@ c	Laci;	Lacz;
 c	Lacj;	Lada;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Lzs;Laid;Lcm;Lqr;Lct;FFF)Lqt;	a(Laak;Laiu;Lcn;Lqz;Lcu;FFF)Lrb;
-		ma	6	6
-		ma	7	7
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		ma	4	3
+		ma	5	4
+		ma	6	5
+		ma	7	6
+		ma	8	7
+		mv	0	0
+		mv	1	1
 		mv	2	3
 		mv	3	4
 	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
@@ -2775,6 +2853,17 @@ c	Lacj;	Lada;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
 	m	b()Lacz;	b()Ladq;
 	m	b(Ladz;)Ladc;	b(Laeq;)Ladt;
 		ma	0	0
@@ -2822,6 +2911,10 @@ c	Lacl;	Ladc;
 		ma	0	0
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	b()Lacz;	b()Ladq;
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	d()Lakf;	d()Lakw;
 	m	c(Ljava/lang/String;)Ladx;	c(Ljava/lang/String;)Laeo;
 		ma	0	0
@@ -2836,6 +2929,36 @@ c	Lacm;	Ladd;
 c	Lacn;	Lade;
 	m	<init>(Laap$b;)V	<init>(Labh$b;)V
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
+		mv	1	2
+		mv	2	3
+		mv	3	4
+		mv	4	5
+		mv	5	6
+		mv	6	7
+		mv	7	8
+		mv	8	9
+		mv	9	10
+		mv	10	11
+		mv	11	12
+		mv	12	13
+		mv	13	14
+		mv	14	15
+		mv	15	16
+		mv	16	17
+		mv	17	18
+		mv	18	19
+		mv	19	20
+		mv	20	21
+		mv	21	22
+		mv	22	23
+		mv	23	24
+		mv	24	25
+		mv	25	26
 	f	a;;Laap$b;	a;;Labh$b;
 c	Laco;	Ladf;
 	m	<init>()V	<init>()V
@@ -2852,6 +2975,18 @@ c	Lacp$1;	Ladg$1;
 	f	a;;Lacp;	a;;Ladg;
 c	Lacp;	Ladg;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	0
+		mv	1	2
+		mv	2	3
+		mv	3	4
+	m	a(Ladz;Lzs;Ladz;)Ladz;	a(Laeq;Laak;Laeq;)Laeq;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 c	Lacq$1;	Ladh$1;
 	m	<init>(Lacq;)V	<init>(Ladh;)V
 		ma	0	0
@@ -2898,6 +3033,11 @@ c	Lacq;	Ladh;
 		ma	0	0
 	m	f(Ladz;)Lafj;	f(Laeq;)Laga;
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 	m	c()I	c()I
 c	Lacr;	Ladi;
 	m	<init>(I)V	<init>(I)V
@@ -2909,6 +3049,21 @@ c	Lacr;	Ladi;
 c	Lacs;	Ladj;
 	m	<init>(Lakf;)V	<init>(Lakw;)V
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	0
+		mv	1	2
+		mv	2	3
+		mv	3	4
+		mv	4	5
+		mv	5	6
+		mv	6	7
+	m	a(Ladz;Lzs;Ladx;)Ladz;	a(Laeq;Laak;Laeo;)Laeq;
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	a(Lzs;Laid;Lcm;)Z	a(Laak;Laiu;Lcn;)Z
 		ma	0	0
 		ma	1	1
@@ -2927,6 +3082,12 @@ c	Lact;	Ladk;
 	m	<init>()V	<init>()V
 	m	A_()Z	z_()Z
 	m	C_()Z	B_()Z
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
+		mv	1	2
 c	Lacu;	Ladl;
 	m	<init>(IF)V	<init>(IF)V
 		ma	0	0
@@ -2968,6 +3129,10 @@ c	Lacw;	Ladn;
 	m	<init>()V	<init>()V
 	m	f_(Ladz;)Ljava/lang/String;	f_(Laeq;)Ljava/lang/String;
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
 c	Lacx$1;	Lado$1;
 	m	<init>(Lacx;)V	<init>(Lado;)V
 		ma	0	0
@@ -3094,6 +3259,10 @@ c	Lacz;	Ladq;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Ljava/util/List;)V	a(Ldc;)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
 	m	a(Ljava/util/List;[Lagw;)V	a(Ljava/util/List;[Lahn;)V
 		ma	0	0
 		ma	1	1
@@ -3121,6 +3290,7 @@ c	Lacz;	Ladq;
 	f	q;;Z	q;;Z
 	f	r;;Z	r;;Z
 	f	s;;[Lagw;	s;;[Lahn;
+	f	t;;Ladz;	t;;Laeq;
 c	Lad;	Lad;
 	m	<init>()V	<init>()V
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
@@ -3288,6 +3458,11 @@ c	Ladd;	Ladu;
 		ma	3	3
 		mv	0	0
 		mv	1	1
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
 c	Lade;	Ladv;
@@ -3299,6 +3474,11 @@ c	Lade;	Ladv;
 		ma	0	0
 c	Ladf;	Ladw;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 c	Ladg$1;	Ladx$1;
 	m	<init>(Ladg;)V	<init>(Ladx;)V
 		ma	0	0
@@ -3314,8 +3494,21 @@ c	Ladg;	Ladx;
 	m	a(Ladz;Ladz;)Z	a(Laeq;Laeq;)Z
 		ma	0	0
 		ma	1	1
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
+		mv	1	2
 c	Ladh;	Lady;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
 c	Ladi;	Ladz;
 	m	<init>()V	<init>()V
 	m	i_(Ladz;)Z	i_(Laeq;)Z
@@ -3382,12 +3575,29 @@ c	Ladk;	Laeb;
 		mv	9	10
 		mv	10	11
 		mv	11	12
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
+		mv	1	2
+		mv	2	3
 c	Ladl;	Laec;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 c	Ladm;	Laed;
 	m	<init>()V	<init>()V
 	m	i_(Ladz;)Z	i_(Laeq;)Z
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 c	Ladn;	Laee;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Lzs;Laid;Lcm;Lqr;Lct;FFF)Lqt;	a(Laak;Laiu;Lcn;Lqz;Lcu;FFF)Lrb;
@@ -3508,6 +3718,14 @@ c	Ladq;	Laeh;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	f_(Ladz;)Ljava/lang/String;	f_(Laeq;)Ljava/lang/String;
 		ma	0	0
 		mv	0	0
@@ -3524,6 +3742,11 @@ c	Ladr;	Laei;
 	m	<init>()V	<init>()V
 	m	A_()Z	z_()Z
 	m	C_()Z	B_()Z
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 	m	g_(Ladz;)Z	g_(Laeq;)Z
 		ma	0	0
 	m	c()I	c()I
@@ -3553,6 +3776,10 @@ c	Ladt;	Laek;
 		ma	0	0
 	m	f(Ladz;)Lafj;	f(Laeq;)Laga;
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
 	m	h(Ladz;)I	h(Laeq;)I
 		ma	0	0
 	m	i(Ladz;)F	i(Laeq;)F
@@ -3579,6 +3806,10 @@ c	Ladu;	Lael;
 	m	g(Ladz;)Laen;	g(Laeq;)Lafe;
 		ma	0	0
 	m	a(Ladz;Laid;Lzs;)V	a(Laeq;Laiu;Laak;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -3623,12 +3854,28 @@ c	Ladw;	Laen;
 		mv	0	0
 	f	b;;F	b;;F
 	f	a;;Ladx$a;	a;;Laeo$a;
+c	Ladx$10;	Laeo$10;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$11;	Laeo$11;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
 c	Ladx$12;	Laeo$12;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Laid;Lsf;)F	a(Laeq;Laiu;Lsn;)F
 		ma	0	0
 		ma	1	1
 		ma	2	2
+c	Ladx$13;	Laeo$13;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$14;	Laeo$14;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
 c	Ladx$15;	Laeo$15;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Laid;Lsf;)F	a(Laeq;Laiu;Lsn;)F
@@ -3641,12 +3888,64 @@ c	Ladx$16;	Laeo$16;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+c	Ladx$17;	Laeo$17;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$18;	Laeo$18;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$19;	Laeo$19;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
 c	Ladx$1;	Laeo$1;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Laid;Lsf;)F	a(Laeq;Laiu;Lsn;)F
 		ma	0	0
 		ma	1	1
 		ma	2	2
+c	Ladx$20;	Laeo$20;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$21;	Laeo$21;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$2;	Laeo$2;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$3;	Laeo$3;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$4;	Laeo$4;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$5;	Laeo$5;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$6;	Laeo$6;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$7;	Laeo$7;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$8;	Laeo$8;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+c	Ladx$9;	Laeo$9;
+	m	<init>()V	<init>()V
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
 c	Ladx$a;	Laeo$a;
 	m	values()[Ladx$a;	values()[Laeo$a;
 	m	valueOf(Ljava/lang/String;)Ladx$a;	valueOf(Ljava/lang/String;)Laeo$a;
@@ -3704,6 +4003,10 @@ c	Ladx;	Laeo;
 	m	a(Ladz;Lars;)F	a(Laeq;Lasj;)F
 		ma	0	0
 		ma	1	1
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
 	m	a(Ladz;Laid;Lsf;)Ladz;	a(Laeq;Laiu;Lsn;)Laeq;
 		ma	0	0
 		ma	1	1
@@ -3804,6 +4107,10 @@ c	Ladx;	Laeo;
 		mv	13	13
 		mv	14	14
 	m	c()I	c()I
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	b()Lacz;	b()Ladq;
 	m	a(Lacz;)Ladx;	a(Ladq;)Laeo;
 		ma	0	0
@@ -3903,8 +4210,10 @@ c	Ladz;	Laeq;
 		ma	1	1
 	m	<init>(Ladx;II)V	<init>(Laeo;II)V
 		ma	0	0
+	m	<init>()V	<init>(Ldt;)V
 	m	a(Lpd;)V	a(Lpf;)V
 		ma	0	0
+	m	a(I)Ladz;	a(I)Laeq;
 	m	a(Lzs;Laid;Lcm;Lqr;Lct;FFF)Lqt;	a(Laak;Laiu;Lcn;Lqz;Lcu;FFF)Lrb;
 		ma	0	0
 		ma	1	1
@@ -4002,6 +4311,8 @@ c	Ladz;	Laeq;
 		ma	2	2
 	m	n()Z	o()Z
 	m	o()Ldr;	p()Ldt;
+	m	a(Ljava/lang/String;Z)Ldr;	c(Ljava/lang/String;)Ldt;
+		ma	0	0
 	m	p()Ldx;	q()Ldz;
 	m	d(Ldr;)V	b(Ldt;)V
 		ma	0	0
@@ -4096,6 +4407,8 @@ c	Ladz;	Laeq;
 		mv	2	2
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/text/DecimalFormat;	b;;Ljava/text/DecimalFormat;
+	f	b;;I	c;;I
+	f	c;;I	d;;I
 	f	d;;Ladx;	e;;Laeo;
 	f	e;;Ldr;	f;;Ldt;
 	f	f;;I	h;;I
@@ -4159,6 +4472,8 @@ c	Lae;	Lae;
 		mv	8	8
 		mv	9	9
 		mv	10	10
+		mv	12	11
+		mv	13	12
 		mv	14	13
 		mv	15	14
 		mv	16	15
@@ -4422,6 +4737,11 @@ c	Laee;	Laev;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
+		mv	0	1
 c	Laef;	Laew;
 	m	<init>()V	<init>()V
 	m	a(ILaid;)Lazs;	a(ILaiu;)Lbaj;
@@ -4517,6 +4837,10 @@ c	Laeg;	Laex;
 		ma	0	0
 	m	f(Ladz;)Lafj;	f(Laeq;)Laga;
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		ma	1	0
+		ma	2	1
+		ma	3	2
 c	Laeh$1;	Laey$1;
 	m	<init>()V	<init>()V
 	m	b(Lcn;Ladz;)Ladz;	b(Lco;Laeq;)Laeq;
@@ -4551,7 +4875,17 @@ c	Laeh;	Laey;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lcu;	a;;Lcv;
 	f	b;;Laaq$a;	b;;Labi$a;
+c	Laei$1;	Laez$1;
+	m	<init>([Ljava/lang/String;)V	<init>([Ljava/lang/String;)V
+		ma	0	0
+	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
+		ma	0	0
+		mv	0	0
+	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
 c	Laei;	Laez;
+	m	<init>(Lakf;Lakf;Lcom/google/common/base/Function;)V	<init>(Lakw;Lakw;Laez$a;)V
+		ma	0	0
+		ma	1	1
 	m	<init>(Lakf;Lakf;[Ljava/lang/String;)V	<init>(Lakw;Lakw;[Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -4561,6 +4895,7 @@ c	Laei;	Laez;
 	m	f_(Ladz;)Ljava/lang/String;	f_(Laeq;)Ljava/lang/String;
 		ma	0	0
 	f	b;;Lakf;	b;;Lakw;
+	f	c;;Lcom/google/common/base/Function;	c;;Laez$a;
 c	Laej;	Lafa;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Lzs;Lsf;Lqr;)Z	a(Laeq;Laak;Lsn;Lqz;)Z
@@ -4601,6 +4936,7 @@ c	Laem;	Lafd;
 		ma	0	0
 	m	f(Ladz;)Lafj;	f(Laeq;)Laga;
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
 	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
 		ma	0	0
 	m	a(Ladz;Lzs;Ljava/util/List;Z)V	a(Laeq;Laak;Ljava/util/List;Z)V
@@ -4610,6 +4946,11 @@ c	Laem;	Lafd;
 		ma	3	3
 	m	i_(Ladz;)Z	i_(Laeq;)Z
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
 c	Laen;	Lafe;
 	m	values()[Laen;	values()[Lafe;
 	m	valueOf(Ljava/lang/String;)Laen;	valueOf(Ljava/lang/String;)Lafe;
@@ -4731,11 +5072,16 @@ c	Laev;	Lafm;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
 	m	b()Lacz;	b()Ladq;
 	m	f(Ladz;)Lafj;	f(Laeq;)Laga;
 		ma	0	0
 	m	e(Ladz;)I	e(Laeq;)I
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
 	m	a(Ladz;Ladz;)Z	a(Laeq;Laeq;)Z
 		ma	0	0
 		ma	1	1
@@ -4774,6 +5120,10 @@ c	Laez;	Lafq;
 		mv	5	6
 		mv	6	7
 		mv	7	8
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
 	m	a(I)I	a(I)I
 		ma	0	0
 	m	f_(Ladz;)Ljava/lang/String;	f_(Laeq;)Ljava/lang/String;
@@ -4871,6 +5221,8 @@ c	Lafb;	Lafs;
 		ma	0	0
 c	Lafc;	Laft;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		mv	0	1
 c	Lafd;	Lafu;
 	m	<init>()V	<init>()V
 	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
@@ -4889,6 +5241,10 @@ c	Lafd;	Lafu;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		mv	0	1
+		mv	1	2
+		mv	2	3
 	m	a(Laid;Ljava/lang/String;DDD)Lrw;	a(Laiu;Lkp;DDD)Lse;
 		ma	0	0
 		ma	2	2
@@ -4897,7 +5253,17 @@ c	Lafd;	Lafu;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
 	m	a(Ladz;Ljava/lang/String;)V	a(Laeq;Lkp;)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
+	m	h(Ladz;)Ljava/lang/String;	h(Laeq;)Lkp;
 		ma	0	0
 		mv	0	0
 		mv	1	1
@@ -4911,6 +5277,8 @@ c	Laff;	Lafw;
 	m	<init>()V	<init>()V
 	m	a(Ladz;)Ljava/lang/String;	a(Laeq;)Ljava/lang/String;
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		mv	0	1
 c	Lafg;	Lafx;
 	m	<init>(Ladx$a;)V	<init>(Laeo$a;)V
 		ma	0	0
@@ -4962,6 +5330,11 @@ c	Lafi;	Lafz;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
 	m	a(Ladz;Lzs;Ljava/util/List;Z)V	a(Laeq;Laak;Ljava/util/List;Z)V
 		ma	0	0
 		ma	1	1
@@ -4986,8 +5359,14 @@ c	Lafj;	Laga;
 c	Lafk;	Lagb;
 	m	<init>(Lakf;)V	<init>(Lakw;)V
 		ma	0	0
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
+		mv	0	1
+		mv	1	2
+		mv	2	3
+		mv	3	4
 c	Lafl;	Lagc;
 	m	<init>()V	<init>()V
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
 	m	b(Ldr;)Z	b(Ldt;)Z
 		ma	0	0
 		mv	0	0
@@ -5011,6 +5390,7 @@ c	Lafm;	Lagd;
 		ma	3	3
 		mv	0	0
 		mv	1	1
+	m	a(Ladz;Laid;Lzs;Lqr;)Lqu;	a(Laiu;Laak;Lqz;)Lrc;
 	m	a(Ladz;Lzs;)V	a(Laeq;Laak;)V
 		ma	0	0
 		ma	1	1
@@ -5298,6 +5678,10 @@ c	Lafs;	Lagj;
 		mv	20	20
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 c	Laft;	Lagk;
 	m	<init>()V	<init>()V
 	m	a(Lage;)V	a(Lagv;)V
@@ -5332,6 +5716,10 @@ c	Lafu$a;	Lagl$a;
 		mv	10	10
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 	m	c(Labl;)Laqi$a;	c(Lacc;)Laqz$a;
 		ma	0	0
 		mv	0	0
@@ -5368,6 +5756,9 @@ c	Lafu$b;	Lagl$b;
 		mv	2	2
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
 	m	<init>(Lafu$1;)V	<init>(Lagl$1;)V
 		ma	0	0
 c	Lafu;	Lagl;
@@ -5396,6 +5787,9 @@ c	Lafv;	Lagm;
 		mv	4	4
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
 c	Lafw;	Lagn;
 	m	<init>()V	<init>()V
 	m	a(Lage;)V	a(Lagv;)V
@@ -5438,6 +5832,11 @@ c	Lafx;	Lago;
 		ma	0	0
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
+	f	a;;Ladz;	a;;Laeq;
 c	Lafy;	Lagp;
 	m	<init>()V	<init>()V
 	m	a(Lage;)V	a(Lagv;)V
@@ -5533,6 +5932,10 @@ c	Laga;	Lagr;
 		mv	4	4
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 c	Lagb;	Lags;
 	m	<init>()V	<init>()V
 	m	a(Labl;Laid;)Z	a(Lacc;Laiu;)Z
@@ -5566,6 +5969,8 @@ c	Lagd;	Lagu;
 		ma	0	0
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
 c	Lage$1;	Lagv$1;
 	m	<init>(Lage;)V	<init>(Lagv;)V
 		ma	0	0
@@ -5614,6 +6019,12 @@ c	Lage;	Lagv;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	m	b(Labl;Laid;)[Ladz;	b(Lacc;Laiu;)Ldc;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	3	3
 	m	b()Ljava/util/List;	b()Ljava/util/List;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lage;	a;;Lagv;
@@ -5642,12 +6053,20 @@ c	Lagf;	Lagw;
 		mv	10	10
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 c	Lagg;	Lagx;
 	m	<init>(II[Ladz;Ladz;)V	<init>(II[Laeq;Laeq;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 	m	a(Labl;Laid;)Z	a(Lacc;Laiu;)Z
 		ma	0	0
 		ma	1	1
@@ -5680,6 +6099,10 @@ c	Lagh;	Lagy;
 		ma	0	0
 		ma	1	1
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 	m	a(Labl;Laid;)Z	a(Lacc;Laiu;)Z
 		ma	0	0
 		ma	1	1
@@ -5717,6 +6140,10 @@ c	Lagi$a;	Lagz$a;
 		mv	7	7
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
+		mv	1	1
+		mv	2	2
 	m	<init>(Lagi$1;)V	<init>(Lagz$1;)V
 		ma	0	0
 c	Lagi;	Lagz;
@@ -5742,6 +6169,8 @@ c	Lagk;	Lahb;
 		mv	1	1
 	m	a()I	a()I
 	m	b()Ladz;	b()Laeq;
+	m	b(Labl;)[Ladz;	b(Lacc;)Ldc;
+		ma	0	0
 c	Lagl;	Lahc;
 	m	<init>()V	<init>()V
 	m	a(Lage;)V	a(Lagv;)V
@@ -5881,6 +6310,14 @@ c	Lagv;	Lahm;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Lsf;)Ljava/lang/Iterable;	a(Lsn;)Ljava/util/List;
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 	m	c()Lagv$a;	c()Lahm$a;
 	m	d()I	d()I
 	m	b()I	b()I
@@ -6369,6 +6806,7 @@ c	Laho;	Laif;
 		ma	0	0
 	m	i_()Ley;	i_()Lfa;
 c	Lahp;	Laig;
+	m	<init>(Ldr;)V	<init>(Ldt;)V
 	m	<init>(Ladz;Ladz;Ladz;)V	<init>(Laeq;Laeq;Laeq;)V
 		ma	0	0
 		ma	1	1
@@ -6518,6 +6956,8 @@ c	Lahs;	Laij;
 	f	g;;Lo;	g;;Lo;
 c	Laht;	Laik;
 	m	<init>()V	<init>()V
+	m	g()Ljava/lang/String;	g()Lkp;
+	m	a(Ljava/lang/String;)V	a(Lkp;)V
 	m	h()Z	h()Z
 		mv	0	0
 	m	c()V	c()V
@@ -9740,6 +10180,9 @@ c	Lajw;	Lakn;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	a(Lyj;)V	a(Lyx;)V
 		ma	0	0
 	m	a_(Laid;Lcm;)V	a_(Laiu;Lcn;)V
@@ -10741,6 +11184,9 @@ c	Lakf;	Lakw;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	r()Lacz;	r()Ladq;
 	m	a(Lacz;)Lakf;	a(Ladq;)Lakw;
 		ma	0	0
@@ -12044,6 +12490,13 @@ c	Lakw;	Laln;
 		ma	0	0
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -12511,6 +12964,9 @@ c	Lalb;	Lals;
 	m	e(Lars;)I	e(Lasj;)I
 		ma	0	0
 	m	b()Lart;	b()Lask;
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lash;	a;;Lasy;
 	f	b;;Lbby;	b;;Lbcp;
@@ -12847,6 +13303,9 @@ c	Lalg;	Lalx;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	a(Laid;Lcm;Lars;)Ladz;	a(Laiu;Lcn;Lasj;)Laeq;
 		ma	0	0
 		ma	1	1
@@ -13240,6 +13699,13 @@ c	Lalj;	Lama;
 		ma	3	3
 		mv	0	0
 		mv	1	1
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(Laid;Lcm;Lars;)Ladz;	a(Laiu;Lcn;Lasj;)Laeq;
 		ma	0	0
 		ma	1	1
@@ -14243,6 +14709,13 @@ c	Lalz;	Lamq;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e()Lalz$b;	e()Lamq$b;
@@ -14998,6 +15471,7 @@ c	Lamw$a;	Lann$a;
 	m	a()Ladz;	a()Laeq;
 	m	a(Ladz;)V	a(Laeq;)V
 		ma	0	0
+	f	a;;Ladz;	a;;Laeq;
 c	Lamw;	Lann;
 	m	a(Lpd;)V	a(Lpf;)V
 		ma	0	0
@@ -15779,6 +16253,13 @@ c	Lanh;	Lany;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -15937,6 +16418,9 @@ c	Lann;	Laoe;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	u(Lars;)Ladz;	u(Lasj;)Laeq;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -15971,6 +16455,9 @@ c	Lano;	Laof;
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 		mv	0	0
@@ -16029,6 +16516,13 @@ c	Lanp;	Laog;
 	m	g()Lasi;	g()Lasz;
 	m	a(Ladz;)Ljava/lang/Comparable;	a(Laeq;)Ljava/lang/Comparable;
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 		mv	0	0
@@ -16114,6 +16608,9 @@ c	Lant;	Laok;
 		ma	3	3
 	m	i(Lars;)I	i(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	u(Lars;)Ladz;	u(Lasj;)Laeq;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -16150,6 +16647,9 @@ c	Lanu;	Laol;
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 		mv	0	0
@@ -16239,6 +16739,13 @@ c	Lanx;	Laoo;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
@@ -16590,6 +17097,9 @@ c	Laod;	Laou;
 	m	b()Lart;	b()Lask;
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lasg;	a;;Lasx;
 	f	b;;I	b;;I
@@ -16756,6 +17266,9 @@ c	Laog;	Laox;
 	m	u(Lars;)Ladz;	u(Lasj;)Laeq;
 		ma	0	0
 		mv	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -16831,6 +17344,13 @@ c	Laoj;	Lapa;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -17482,6 +18002,13 @@ c	Laot;	Lapk;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -17527,6 +18054,13 @@ c	Laou;	Lapl;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	a(I)Lars;	a(I)Lasj;
@@ -17581,6 +18115,13 @@ c	Laov;	Lapm;
 		mv	0	0
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(Laid;Lcm;Lars;Z)Z	a(Laiu;Lcn;Lasj;Z)Z
 		ma	0	0
 		ma	1	1
@@ -17967,6 +18508,9 @@ c	Lape;	Lapv;
 		mv	10	10
 		mv	11	11
 		mv	12	12
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -17988,6 +18532,13 @@ c	Lapf;	Lapw;
 		ma	0	0
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	f()Lahv;	f()Laim;
@@ -18019,6 +18570,10 @@ c	Lapg;	Lapx;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
 	m	r(Lars;)Laxy;	r(Lasj;)Layp;
 		ma	0	0
 	m	f()Lahv;	f()Laim;
@@ -18447,6 +19002,13 @@ c	Lapl;	Laqc;
 		ma	2	2
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -18488,6 +19050,13 @@ c	Lapm;	Laqd;
 	m	<init>()V	<init>()V
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -18567,6 +19136,13 @@ c	Lapo;	Laqf;
 	m	g()Lasi;	g()Lasz;
 	m	a(Ladz;)Ljava/lang/Comparable;	a(Laeq;)Ljava/lang/Comparable;
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 		mv	0	0
@@ -18719,6 +19295,10 @@ c	Lapr;	Laqi;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
 	m	a(Laid;Lcm;Lars;Z)Z	a(Laiu;Lcn;Lasj;Z)Z
 		ma	0	0
 		ma	1	1
@@ -19496,6 +20076,13 @@ c	Lapz;	Laqq;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
 	m	a(Lars;Laih;Lcm;Lct;)Z	a(Lasj;Laiy;Lcn;Lcu;)Z
@@ -19701,6 +20288,13 @@ c	Laqf;	Laqw;
 	m	g()Lasi;	g()Lasz;
 	m	a(Ladz;)Ljava/lang/Comparable;	a(Laeq;)Ljava/lang/Comparable;
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 		mv	0	0
@@ -19746,6 +20340,10 @@ c	Laqg;	Laqx;
 		ma	3	3
 	m	d(Lars;)I	d(Lasj;)I
 		ma	0	0
+	m	a(Ladx;Lacz;Ljava/util/List;)V	a(Laeo;Ladq;Ldc;)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
 	m	a(I)Lars;	a(I)Lasj;
 		ma	0	0
 	m	e(Lars;)I	e(Lasj;)I
@@ -19834,6 +20432,7 @@ c	Laqi$a;	Laqz$a;
 	f	N;;Ljava/lang/String;	N;;Ljava/lang/String;
 	f	O;;Ljava/lang/String;	O;;Ljava/lang/String;
 	f	P;;[Ljava/lang/String;	P;;[Ljava/lang/String;
+	f	Q;;Ladz;	Q;;Laeq;
 	f	R;;[Laqi$a;	R;;[Laqz$a;
 c	Laqi;	Laqz;
 	m	<init>()V	<init>()V
@@ -20031,6 +20630,7 @@ c	Laqk$3;	Larb$3;
 	f	a;;Laqk;	a;;Larb;
 c	Laqk;	Larb;
 	m	<init>()V	<init>()V
+	m	a(Ljava/lang/Class;Ljava/lang/String;)V	a(Ljava/lang/String;Ljava/lang/Class;)V
 	m	D()Laid;	D()Laiu;
 	m	a(Laid;)V	a(Laiu;)V
 		ma	0	0
@@ -20087,6 +20687,7 @@ c	Laqk;	Larb;
 	m	C()Ljava/util/Map;	C()Ldb;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+	f	f;;Ljava/util/Map;	f;;Ldb;
 	f	b;;Laid;	b;;Laiu;
 	f	c;;Lcm;	c;;Lcn;
 	f	d;;Z	d;;Z
@@ -20100,6 +20701,9 @@ c	Laql;	Larc;
 		ma	0	0
 	m	u_()I	t_()I
 	m	E_()V	D_()V
+	m	m()[Z	m()[Z
+		mv	0	0
+		mv	1	1
 	m	n()Z	n()Z
 		mv	0	0
 		mv	1	1
@@ -20167,6 +20771,7 @@ c	Laql;	Larc;
 	f	a;;[I	a;;[I
 	f	f;;[I	f;;[I
 	f	g;;[I	g;;[I
+	f	h;;[Ladz;	h;;Ldc;
 	f	i;;I	i;;I
 	f	j;;[Z	j;;[Z
 	f	k;;Ladx;	k;;Laeo;
@@ -20177,6 +20782,8 @@ c	Laqm$1;	Lard$1;
 	f	a;;[I	a;;[I
 c	Laqm;	Lard;
 	m	<init>()V	<init>()V
+	m	<init>(Lakr$a;)V	<init>(Lali$a;)V
+		ma	0	0
 	m	u_()I	t_()I
 	m	a(I)Ladz;	a(I)Laeq;
 		ma	0	0
@@ -20259,6 +20866,7 @@ c	Laqm;	Lard;
 		ma	1	1
 	m	g()I	g()I
 	m	l()V	l()V
+	f	o;;[Ladz;	o;;Ldc;
 	f	a;;Z	a;;Z
 	f	f;;Laqm;	f;;Lard;
 	f	g;;Laqm;	g;;Lard;
@@ -20407,6 +21015,7 @@ c	Laqq;	Larh;
 	m	l()V	l()V
 	m	<clinit>()V	<clinit>()V
 	f	f;;Ljava/util/Random;	f;;Ljava/util/Random;
+	f	g;;[Ladz;	g;;Ldc;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 c	Laqr;	Lari;
 	m	<init>()V	<init>()V
@@ -20579,6 +21188,7 @@ c	Laqv;	Larm;
 	f	a;;[I	a;;[I
 	f	f;;[I	f;;[I
 	f	g;;[I	g;;[I
+	f	h;;[Ladz;	h;;Ldc;
 	f	i;;I	i;;I
 	f	j;;I	j;;I
 	f	k;;I	k;;I
@@ -20631,6 +21241,8 @@ c	Laqx;	Laro;
 	m	E_()V	D_()V
 	m	m()Z	m()Z
 		mv	0	0
+	m	q()Z	q()Z
+	m	r()Z	r()Z
 	m	H()Z	H()Z
 		mv	0	0
 		mv	1	1
@@ -20746,6 +21358,8 @@ c	Laqx;	Laro;
 	m	E()D	E()D
 	m	F()D	F()D
 	m	G()D	G()D
+	m	d(I)V	d(I)V
+		ma	0	0
 	m	o()Z	o()Z
 	m	p()Z	p()Z
 	m	k()Ljava/lang/String;	k()Ljava/lang/String;
@@ -20759,6 +21373,7 @@ c	Laqx;	Laro;
 		ma	1	1
 	m	g()I	g()I
 	m	l()V	l()V
+	f	a;;[Ladz;	a;;Ldc;
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
 	f	g;;I	g;;I
 c	Laqy;	Larp;
@@ -25797,6 +26412,7 @@ c	Lavk;	Lawb;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+	f	b;;[Ljava/lang/String;	b;;[Lkp;
 c	Lavl;	Lawc;
 	m	<init>(Lars;I)V	<init>(Lasj;I)V
 		ma	0	0
@@ -32990,6 +33606,9 @@ c	Lbak;	Lbbb;
 	f	C;;Lkn;	C;;Lkp;
 	f	D;;Lkn;	D;;Lkp;
 	f	E;;Lkn;	E;;Lkp;
+	f	F;;Lkn;	F;;Lkp;
+	f	G;;Lkn;	I;;Lkp;
+	f	H;;Lkn;	J;;Lkp;
 	f	I;;Lkn;	K;;Lkp;
 	f	J;;Lkn;	L;;Lkp;
 	f	K;;Lkn;	M;;Lkp;
@@ -33019,6 +33638,9 @@ c	Lbak;	Lbbb;
 	f	ai;;Lkn;	ak;;Lkp;
 	f	aj;;Lkn;	al;;Lkp;
 	f	ak;;Lkn;	am;;Lkp;
+	f	al;;Lkn;	an;;Lkp;
+	f	am;;Lkn;	ao;;Lkp;
+	f	an;;Lkn;	ap;;Lkp;
 	f	ao;;Lkn;	as;;Lkp;
 	f	ap;;Lkn;	at;;Lkp;
 	f	aq;;Lkn;	au;;Lkp;
@@ -33218,6 +33840,16 @@ c	Lbap;	Lbbg;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Ljava/util/List;ILjava/util/Random;)V	a(Ljava/util/List;ILjava/util/Random;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 	m	a(Lql;Ljava/util/Random;)Ljava/util/List;	a(Lqt;Ljava/util/Random;)Ljava/util/List;
 		ma	0	0
 		ma	1	1
@@ -36993,6 +37625,7 @@ c	Lbdm;	Lbed;
 	f	p;;Z	p;;Z
 	f	a;;F	a;;F
 	f	q;;I	q;;I
+	f	r;;Ladz;	r;;Laeq;
 	f	s;;Lbdu;	s;;Lbel;
 	f	t;;Lbek;	t;;Lbfb;
 	f	u;;Lbem;	u;;Lbfd;
@@ -41692,6 +42325,7 @@ c	Lbgu$a;	Lbhl$a;
 		ma	1	1
 	m	b(Lacc;)Z	b(Lact;)Z
 		ma	0	0
+	f	a;;Ljava/util/List;	a;;Ldc;
 c	Lbgu$b;	Lbhl$b;
 	m	<init>(Lbgu;Lacc;I)V	<init>(Lbhl;Lact;I)V
 		ma	0	0
@@ -42022,6 +42656,7 @@ c	Lbgy;	Lbhp;
 	f	y;;F	y;;F
 	f	z;;F	z;;F
 	f	A;;F	A;;F
+	f	B;;Ladz;	H;;Laeq;
 	f	I;;Lqy;	I;;Lrg;
 c	Lbgz;	Lbhq;
 	m	<init>(Lzr;Lql;)V	<init>(Laaj;Lqt;)V
@@ -43143,6 +43778,11 @@ c	Lbii;	Lbiz;
 	m	I_()Z	H_()Z
 	f	a;;Lcom/mojang/authlib/GameProfile;	a;;Lcom/mojang/authlib/GameProfile;
 	f	b;;Lkn;	b;;Lkp;
+c	Lbij;	Lbja;
+	m	<init>()V	<init>()V
+	m	a()Ljava/util/List;	a()Ljava/util/List;
+	m	b()Ley;	b()Lfa;
+	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 c	Lbik$1;	Lbjb$1;
 	m	<init>()V	<init>()V
 	m	a(Lbik;)V	a(Lbjb;)V
@@ -43152,6 +43792,19 @@ c	Lbik$1;	Lbjb$1;
 		ma	0	0
 		ma	1	1
 	m	I_()Z	H_()Z
+c	Lbik$b;	Lbjb$b;
+	m	<init>(IZ)V	<init>(IZ)V
+		ma	0	0
+		ma	1	1
+	m	a(Lbik;)V	a(Lbjb;)V
+		ma	0	0
+	m	H_()Ley;	G_()Lfa;
+	m	a(FI)V	a(FI)V
+		ma	0	0
+		ma	1	1
+	m	I_()Z	H_()Z
+	f	a;;I	a;;I
+	f	b;;Z	b;;Z
 c	Lbik;	Lbjb;
 	m	<init>(Lbin;)V	<init>(Lbje;)V
 		ma	0	0
@@ -45704,6 +46357,19 @@ c	Lblm;	Lbmd;
 		mv	1	1
 	m	n()V	n()V
 		mv	0	0
+	m	a(Lbnn;Lbln;Ladz;Lcm;Lct;Lbcb;Lqr;)Lqt;	a(Lboe;Lbme;Lcn;Lcu;Lbcs;Lqz;)Lrb;
+		ma	0	0
+		ma	1	1
+		mv	0	1
+		mv	1	2
+		mv	2	3
+		mv	3	4
+		mv	4	5
+		mv	5	6
+		mv	6	7
+		mv	7	8
+		mv	8	9
+		mv	9	10
 	m	a(Lzs;Laid;Ladz;Lqr;)Lqt;	a(Laak;Laiu;Lqz;)Lrb;
 		ma	0	0
 		ma	1	1
@@ -45754,6 +46420,7 @@ c	Lblm;	Lbmd;
 	f	a;;Lbcx;	a;;Lbdo;
 	f	b;;Lbll;	b;;Lbmc;
 	f	c;;Lcm;	c;;Lcn;
+	f	d;;Ladz;	d;;Laeq;
 	f	e;;F	e;;F
 	f	f;;F	f;;F
 	f	g;;I	g;;I
@@ -49450,6 +50117,31 @@ c	Lbob$k;	Lbos$k;
 	f	a;;Lbob$c;	a;;Lbos$c;
 	f	b;;Z	b;;Z
 	f	c;;I	c;;I
+c	Lbob$l;	Lbos$l;
+	m	values()[Lbob$l;	values()[Lbos$l;
+	m	valueOf(Ljava/lang/String;)Lbob$l;	valueOf(Ljava/lang/String;)Lbos$l;
+		ma	0	0
+	m	<init>(Ljava/lang/String;II)V	<init>(Ljava/lang/String;II)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lbob$l;	a;;Lbos$l;
+	f	b;;Lbob$l;	b;;Lbos$l;
+	f	c;;Lbob$l;	c;;Lbos$l;
+	f	d;;Lbob$l;	d;;Lbos$l;
+	f	e;;Lbob$l;	e;;Lbos$l;
+	f	f;;Lbob$l;	f;;Lbos$l;
+	f	g;;Lbob$l;	g;;Lbos$l;
+	f	h;;Lbob$l;	h;;Lbos$l;
+	f	i;;Lbob$l;	i;;Lbos$l;
+	f	j;;Lbob$l;	j;;Lbos$l;
+	f	k;;Lbob$l;	k;;Lbos$l;
+	f	l;;Lbob$l;	l;;Lbos$l;
+	f	m;;Lbob$l;	m;;Lbos$l;
+	f	n;;Lbob$l;	n;;Lbos$l;
+	f	o;;I	o;;I
+	f	p;;[Lbob$l;	p;;[Lbos$l;
 c	Lbob$m;	Lbos$m;
 	m	values()[Lbob$m;	values()[Lbos$m;
 	m	valueOf(Ljava/lang/String;)Lbob$m;	valueOf(Ljava/lang/String;)Lbos$m;
@@ -49545,6 +50237,32 @@ c	Lbob$q;	Lbos$q;
 	f	b;;Lbob$q;	b;;Lbos$q;
 	f	c;;Lbob$q;	c;;Lbos$q;
 	f	d;;[Lbob$q;	d;;[Lbos$q;
+c	Lbob$r;	Lbos$r;
+	m	values()[Lbob$r;	values()[Lbos$r;
+	m	valueOf(Ljava/lang/String;)Lbob$r;	valueOf(Ljava/lang/String;)Lbos$r;
+		ma	0	0
+	m	<init>(Ljava/lang/String;II)V	<init>(Ljava/lang/String;II)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lbob$r;	a;;Lbos$r;
+	f	b;;Lbob$r;	b;;Lbos$r;
+	f	c;;Lbob$r;	c;;Lbos$r;
+	f	d;;Lbob$r;	d;;Lbos$r;
+	f	e;;Lbob$r;	e;;Lbos$r;
+	f	f;;Lbob$r;	f;;Lbos$r;
+	f	g;;Lbob$r;	g;;Lbos$r;
+	f	h;;Lbob$r;	h;;Lbos$r;
+	f	i;;Lbob$r;	i;;Lbos$r;
+	f	j;;Lbob$r;	j;;Lbos$r;
+	f	k;;Lbob$r;	k;;Lbos$r;
+	f	l;;Lbob$r;	l;;Lbos$r;
+	f	m;;Lbob$r;	m;;Lbos$r;
+	f	n;;Lbob$r;	n;;Lbos$r;
+	f	o;;Lbob$r;	o;;Lbos$r;
+	f	p;;I	p;;I
+	f	q;;[Lbob$r;	q;;[Lbos$r;
 c	Lbob$s;	Lbos$s;
 	m	<init>()V	<init>()V
 	m	<init>(Lbob$1;)V	<init>(Lbos$1;)V
@@ -50181,6 +50899,8 @@ c	Lbod;	Lbou;
 	f	a;;Lkn;	a;;Lkp;
 	f	b;;Lkn;	b;;Lkp;
 	f	c;;Lbcx;	c;;Lbdo;
+	f	d;;Ladz;	d;;Laeq;
+	f	e;;Ladz;	e;;Laeq;
 	f	f;;F	f;;F
 	f	g;;F	g;;F
 	f	h;;F	h;;F
@@ -52776,6 +53496,46 @@ c	Lbpn;	Lbqe;
 	f	b;;Lbym;	b;;Lbzk;
 	f	c;;Z	c;;Z
 	f	d;;I	d;;I
+c	Lbpo$1;	Lbqf$1;
+	m	<init>(Lbpo;Lart;)V	<init>(Lbqf;Lask;)V
+		ma	0	0
+		ma	1	1
+	m	a(Lbpp;)Lcom/google/common/base/Predicate;	a(Lbqg;)Lcom/google/common/base/Predicate;
+		ma	0	0
+	m	apply(Ljava/lang/Object;)Ljava/lang/Object;	apply(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
+	f	a;;Lart;	a;;Lask;
+	f	b;;Lbpo;	b;;Lbqf;
+c	Lbpo;	Lbqf;
+	m	<init>(Ljava/lang/Iterable;)V	<init>(Ljava/lang/Iterable;)V
+		ma	0	0
+	m	a(Lart;)Lcom/google/common/base/Predicate;	a(Lask;)Lcom/google/common/base/Predicate;
+		ma	0	0
+	f	c;;Ljava/lang/Iterable;	c;;Ljava/lang/Iterable;
+c	Lbpp$1$1;	Lbqg$1$1;
+	m	<init>(Lbpp$1;)V	<init>(Lbqg$1;)V
+		ma	0	0
+	m	a(Lars;)Z	a(Lasj;)Z
+		ma	0	0
+	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
+		ma	0	0
+	f	a;;Lbpp$1;	a;;Lbqg$1;
+c	Lbpp$1;	Lbqg$1;
+	m	<init>()V	<init>()V
+	m	a(Lart;)Lcom/google/common/base/Predicate;	a(Lask;)Lcom/google/common/base/Predicate;
+		ma	0	0
+c	Lbpp$2$1;	Lbqg$2$1;
+	m	<init>(Lbpp$2;)V	<init>(Lbqg$2;)V
+		ma	0	0
+	m	a(Lars;)Z	a(Lasj;)Z
+		ma	0	0
+	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
+		ma	0	0
+	f	a;;Lbpp$2;	a;;Lbqg$2;
+c	Lbpp$2;	Lbqg$2;
+	m	<init>()V	<init>()V
+	m	a(Lart;)Lcom/google/common/base/Predicate;	a(Lask;)Lcom/google/common/base/Predicate;
+		ma	0	0
 c	Lbpp;	Lbqg;
 	m	a(Lart;)Lcom/google/common/base/Predicate;	a(Lask;)Lcom/google/common/base/Predicate;
 		ma	0	0
@@ -52862,6 +53622,22 @@ c	Lbpr;	Lbqi;
 	m	hashCode()I	hashCode()I
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Lart;	b;;Lask;
+c	Lbps$1;	Lbqj$1;
+	m	<init>(Lbps;Lart;)V	<init>(Lbqj;Lask;)V
+		ma	0	0
+		ma	1	1
+	m	a(Lbpp;)Lcom/google/common/base/Predicate;	a(Lbqg;)Lcom/google/common/base/Predicate;
+		ma	0	0
+	m	apply(Ljava/lang/Object;)Ljava/lang/Object;	apply(Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
+	f	a;;Lart;	a;;Lask;
+	f	b;;Lbps;	b;;Lbqj;
+c	Lbps;	Lbqj;
+	m	<init>(Ljava/lang/Iterable;)V	<init>(Ljava/lang/Iterable;)V
+		ma	0	0
+	m	a(Lart;)Lcom/google/common/base/Predicate;	a(Lask;)Lcom/google/common/base/Predicate;
+		ma	0	0
+	f	c;;Ljava/lang/Iterable;	c;;Ljava/lang/Iterable;
 c	Lbpt$a$1;	Lbqk$a$1;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonElement;)Lbpp;	a(Lcom/google/gson/JsonElement;)Lbqg;
@@ -55419,6 +56195,8 @@ c	Lbsp;	Lbti;
 		mv	41	41
 		mv	42	42
 		mv	43	43
+	m	a(Lyv;)Lkn;	a(Lzl;)Lkp;
+		ma	0	0
 	m	a(Lsg;DDDFF)V	a(Lso;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -55456,6 +56234,7 @@ c	Lbsp;	Lbti;
 		ma	4	4
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lkn;	b;;Lkp;
+	f	k;;Lkn;	k;;Lkp;
 	f	l;;Lkn;	l;;Lkp;
 	f	a;;I	a;;I
 c	Lbsq;	Lbtj;
@@ -55486,6 +56265,7 @@ c	Lbsr;	Lbtk;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	k;;Lkn;	k;;Lkp;
+	f	a;;Lbjp;	a;;Lbkg;
 	f	b;;F	b;;F
 c	Lbss;	Lbtm;
 	m	<init>(Lbsh;Lbsu;)V	<init>(Lbta;Lbto;)V
@@ -55506,6 +56286,9 @@ c	Lbss;	Lbtm;
 		mv	5	5
 		mv	6	6
 		mv	7	7
+	m	a(Ladz;)I	a(Laeq;)I
+		ma	0	0
+		mv	0	0
 	m	a(Lyk;DDDFF)V	a(Lyy;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -56058,6 +56841,7 @@ c	Lbsy;	Lbts;
 	f	b;;Lbvu;	b;;Lbwr;
 	f	g;;Lbju;	g;;Lbkl;
 	f	h;;Ljava/nio/FloatBuffer;	h;;Ljava/nio/FloatBuffer;
+	f	i;;Ljava/util/List;	i;;Ljava/util/List;
 	f	j;;Z	j;;Z
 c	Lbsz;	Lbtt;
 	m	<init>(Lbsh;)V	<init>(Lbta;)V
@@ -56605,6 +57389,24 @@ c	Lbtm;	Lbug;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lkn;	a;;Lkp;
+c	Lbtn$1;	Lbuh$1;
+	m	<init>(Lbtn;Lbsy;)V	<init>(Lbuh;Lbts;)V
+		ma	0	0
+		ma	1	1
+	m	K_()V	J_()V
+	f	a;;Lbtn;	a;;Lbuh;
+c	Lbtn;	Lbuh;
+	m	<init>(Lbsh;)V	<init>(Lbta;)V
+		ma	0	0
+	m	e()V	e()V
+	m	a(Lzd;)Lkn;	a(Lzb;)Lkp;
+		ma	0	0
+	m	a(Lsg;)Lkn;	a(Lso;)Lkp;
+		ma	0	0
+	m	a(Lrw;)Lkn;	a(Lse;)Lkp;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	k;;Lkn;	k;;Lkp;
 c	Lbto;	Lbui;
 	m	<init>(Lbsh;Lbju;F)V	<init>(Lbta;Lbkl;F)V
 		ma	0	0
@@ -57013,6 +57815,23 @@ c	Lbud;	Lbuz;
 	f	a;;Lkn;	a;;Lkp;
 	f	b;;Lkn;	b;;Lkp;
 	f	k;;Lkn;	k;;Lkp;
+c	Lbue$1;	Lbva$1;
+	m	<init>(Lbue;Lbsy;)V	<init>(Lbva;Lbts;)V
+		ma	0	0
+		ma	1	1
+	m	K_()V	J_()V
+	f	a;;Lbue;	a;;Lbva;
+c	Lbue;	Lbva;
+	m	<init>(Lbsh;)V	<init>(Lbta;)V
+		ma	0	0
+	m	a(Lzi;)Lkn;	a(Laaa;)Lkp;
+		ma	0	0
+	m	a(Lsg;)Lkn;	a(Lso;)Lkp;
+		ma	0	0
+	m	a(Lrw;)Lkn;	a(Lse;)Lkp;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	q;;Lkn;	k;;Lkp;
 c	Lbuf$1;	Lbvc$1;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -57991,6 +58810,8 @@ c	Lbvl;	Lbwi;
 		mv	4	4
 	m	d()V	d()V
 	m	a(Ljava/lang/String;)Lbvq;	a(Ljava/lang/String;)Lbwn;
+		ma	0	0
+	m	b(Ljava/lang/String;)Lbvq;	b(Ljava/lang/String;)Lbwn;
 		ma	0	0
 	m	i()V	i()V
 		mv	0	0
@@ -65032,6 +65853,7 @@ c	Lfq;	Lfs;
 		ma	0	0
 	m	a(Lfm;)V	a(Lfo;)V
 		ma	0	0
+	m	a()Ljava/util/List;	a()Ljava/util/List;
 	m	b()I	b()I
 	m	c()Ljava/util/UUID;	c()Ljava/util/UUID;
 	m	d()I	d()I
@@ -65059,6 +65881,7 @@ c	Lfq;	Lfs;
 	f	k;;B	k;;B
 	f	l;;B	l;;B
 	f	m;;Lkk;	m;;Lkm;
+	f	n;;Ljava/util/List;	n;;Ljava/util/List;
 c	Lfr;	Lft;
 	m	<init>()V	<init>()V
 	m	<init>(Lyb;)V	<init>(Lyp;)V
@@ -65091,6 +65914,7 @@ c	Lfs;	Lfu;
 		ma	0	0
 	m	a(Lfm;)V	a(Lfo;)V
 		ma	0	0
+	m	a()Ljava/util/List;	a()Ljava/util/List;
 	m	b()I	b()I
 	m	c()Ljava/util/UUID;	c()Ljava/util/UUID;
 	m	d()D	d()D
@@ -65108,6 +65932,7 @@ c	Lfs;	Lfu;
 	f	f;;B	f;;B
 	f	g;;B	g;;B
 	f	h;;Lkk;	h;;Lkm;
+	f	i;;Ljava/util/List;	i;;Ljava/util/List;
 c	Lft;	Lfv;
 	m	<init>()V	<init>()V
 	m	<init>(Lrw;I)V	<init>(Lse;I)V
@@ -65473,9 +66298,11 @@ c	Lgh;	Lgj;
 	m	a(Lfm;)V	a(Lfo;)V
 		ma	0	0
 	m	a()I	a()I
+	m	b()[Ladz;	b()Ljava/util/List;
 	m	a(Let;)V	a(Lev;)V
 		ma	0	0
 	f	a;;I	a;;I
+	f	b;;[Ladz;	b;;Ljava/util/List;
 c	Lgi;	Lgk;
 	m	<init>()V	<init>()V
 	m	<init>(III)V	<init>(III)V
@@ -68287,6 +69114,10 @@ c	Lki;	Lkk;
 		ma	0	0
 c	Lkj$10;	Lkl$10;
 	m	<init>()V	<init>()V
+	m	a(Leq;Lcom/google/common/base/Optional;)V	a(Les;Laeq;)V
+		ma	0	0
+	m	b(Leq;)Lcom/google/common/base/Optional;	b(Les;)Laeq;
+		ma	0	0
 	m	a(I)Lkh;	a(I)Lkj;
 		ma	0	0
 	m	a(Leq;)Ljava/lang/Object;	a(Les;)Ljava/lang/Object;
@@ -68574,6 +69405,7 @@ c	Lkk;	Lkm;
 		ma	0	0
 		ma	1	1
 	m	d()Z	d()Z
+	m	e()V	e()V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
@@ -68667,6 +69499,40 @@ c	Lkq$15;	Lks$15;
 		ma	2	2
 	m	a()F	a()F
 	m	b()F	b()F
+c	Lkq$16$1;	Lks$16$1;
+	m	<init>(Lkq$16;Ladz;)V	<init>(Lks$16;Laeq;)V
+		ma	0	0
+		ma	1	1
+	m	a(Laid;Ldc;Ladz;)Laab;	a(Laiu;Lde;Laeq;)Laat;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a()F	a()F
+	m	b()F	b()F
+	f	b;;Ladz;	b;;Laeq;
+	f	c;;Lkq$16;	c;;Lks$16;
+c	Lkq$16;	Lks$16;
+	m	<init>()V	<init>()V
+	m	a(Lcn;Ladz;)Ladz;	a(Lco;Laeq;)Laeq;
+		ma	0	0
+		ma	1	1
+c	Lkq$17$1;	Lks$17$1;
+	m	<init>(Lkq$17;Ladz;)V	<init>(Lks$17;Laeq;)V
+		ma	0	0
+		ma	1	1
+	m	a(Laid;Ldc;Ladz;)Laab;	a(Laiu;Lde;Laeq;)Laat;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a()F	a()F
+	m	b()F	b()F
+	f	b;;Ladz;	b;;Laeq;
+	f	c;;Lkq$17;	c;;Lks$17;
+c	Lkq$17;	Lks$17;
+	m	<init>()V	<init>()V
+	m	a(Lcn;Ladz;)Ladz;	a(Lco;Laeq;)Laeq;
+		ma	0	0
+		ma	1	1
 c	Lkq$18;	Lks$18;
 	m	<init>()V	<init>()V
 	m	b(Lcn;Ladz;)Ladz;	b(Lco;Laeq;)Laeq;
@@ -73192,7 +74058,16 @@ c	Lnet/minecraft/realms/RealmsScreen;	Lnet/minecraft/realms/RealmsScreen;
 		ma	1	1
 	m	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;
 	m	removed()V	removed()V
+	f	SKIN_HEAD_U;;I	SKIN_HEAD_U;;I
+	f	SKIN_HEAD_V;;I	SKIN_HEAD_V;;I
+	f	SKIN_HEAD_WIDTH;;I	SKIN_HEAD_WIDTH;;I
+	f	SKIN_HEAD_HEIGHT;;I	SKIN_HEAD_HEIGHT;;I
 	f	SKIN_HAT_U;;I	SKIN_HAT_U;;I
+	f	SKIN_HAT_V;;I	SKIN_HAT_V;;I
+	f	SKIN_HAT_WIDTH;;I	SKIN_HAT_WIDTH;;I
+	f	SKIN_HAT_HEIGHT;;I	SKIN_HAT_HEIGHT;;I
+	f	SKIN_TEX_WIDTH;;I	SKIN_TEX_WIDTH;;I
+	f	SKIN_TEX_HEIGHT;;I	SKIN_TEX_HEIGHT;;I
 	f	minecraft;;Lbcx;	minecraft;;Lbdo;
 	f	width;;I	width;;I
 	f	height;;I	height;;I
@@ -74005,8 +74880,11 @@ c	Lnj;	Lnl;
 	f	au;;Lni;	au;;Lnk;
 	f	av;;Lni;	av;;Lnk;
 	f	aw;;Lni;	aw;;Lnk;
+	f	ax;;Lni;	ax;;Lnk;
 	f	ay;;Lni;	ay;;Lnk;
 	f	az;;Lni;	az;;Lnk;
+	f	aA;;Lni;	aA;;Lnk;
+	f	aB;;Lni;	aB;;Lnk;
 	f	aC;;Lni;	aC;;Lnk;
 	f	aD;;Lni;	aD;;Lnk;
 	f	aE;;Lni;	aE;;Lnk;
@@ -74098,9 +74976,14 @@ c	Lnj;	Lnl;
 	f	cm;;Lni;	cm;;Lnk;
 	f	cn;;Lni;	cn;;Lnk;
 	f	co;;Lni;	co;;Lnk;
+	f	cp;;Lni;	cp;;Lnk;
 	f	cq;;Lni;	cq;;Lnk;
 	f	cr;;Lni;	cr;;Lnk;
+	f	cs;;Lni;	cs;;Lnk;
+	f	ct;;Lni;	ct;;Lnk;
 	f	cu;;Lni;	cu;;Lnk;
+	f	cv;;Lni;	cv;;Lnk;
+	f	cw;;Lni;	cw;;Lnk;
 	f	cx;;Lni;	cx;;Lnk;
 	f	cy;;Lni;	cy;;Lnk;
 	f	cz;;Lni;	cz;;Lnk;
@@ -74159,6 +75042,9 @@ c	Lnj;	Lnl;
 	f	dA;;Lni;	dA;;Lnk;
 	f	dB;;Lni;	dB;;Lnk;
 	f	dC;;Lni;	dC;;Lnk;
+	f	dD;;Lni;	dD;;Lnk;
+	f	dE;;Lni;	dE;;Lnk;
+	f	dF;;Lni;	dF;;Lnk;
 	f	dG;;Lni;	dG;;Lnk;
 	f	dH;;Lni;	dH;;Lnk;
 	f	dI;;Lni;	dI;;Lnk;
@@ -74252,6 +75138,9 @@ c	Lnj;	Lnl;
 	f	fs;;Lni;	fs;;Lnk;
 	f	ft;;Lni;	ft;;Lnk;
 	f	fu;;Lni;	fu;;Lnk;
+	f	fv;;Lni;	fv;;Lnk;
+	f	fw;;Lni;	fw;;Lnk;
+	f	fx;;Lni;	fx;;Lnk;
 	f	fy;;Lni;	fy;;Lnk;
 	f	fz;;Lni;	fz;;Lnk;
 	f	fA;;Lni;	fA;;Lnk;
@@ -74358,16 +75247,24 @@ c	Lnj;	Lnl;
 	f	hx;;Lni;	hx;;Lnk;
 	f	hy;;Lni;	hy;;Lnk;
 	f	hz;;Lni;	hz;;Lnk;
+	f	hA;;Lni;	hA;;Lnk;
 	f	hB;;Lni;	hB;;Lnk;
 	f	hC;;Lni;	hC;;Lnk;
 	f	hD;;Lni;	hD;;Lnk;
+	f	hE;;Lni;	hE;;Lnk;
+	f	hF;;Lni;	hF;;Lnk;
+	f	hG;;Lni;	hG;;Lnk;
+	f	hH;;Lni;	hH;;Lnk;
+	f	hI;;Lni;	hI;;Lnk;
 	f	hJ;;Lni;	hJ;;Lnk;
 	f	hK;;Lni;	hK;;Lnk;
 	f	hL;;Lni;	hL;;Lnk;
 	f	hM;;Lni;	hM;;Lnk;
 	f	hN;;Lni;	hN;;Lnk;
+	f	hO;;Lni;	hO;;Lnk;
 	f	hP;;Lni;	hP;;Lnk;
 	f	hQ;;Lni;	hQ;;Lnk;
+	f	hR;;Lni;	hR;;Lnk;
 	f	hS;;Lni;	hS;;Lnk;
 	f	hT;;Lni;	hT;;Lnk;
 	f	hU;;Lni;	hU;;Lnk;
@@ -75852,6 +76749,7 @@ c	Lp$1;	Lp$1;
 		ma	0	0
 	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
 		ma	0	0
+	f	a;;Ljava/lang/String;	a;;Lkp;
 	f	b;;Z	b;;Z
 c	Lp$2;	Lp$2;
 	m	<init>(II)V	<init>(II)V
@@ -76438,6 +77336,18 @@ c	Lq;	Lq;
 	m	b([Ljava/lang/String;I)Z	b([Ljava/lang/String;I)Z
 		ma	0	0
 		ma	1	1
+c	Lqa;	Lqi;
+	m	<init>(Ljava/lang/String;[Ljava/lang/String;)V	<init>(Ljava/lang/Class;[Ljava/lang/String;)V
+		ma	1	1
+	m	b(Lpc;Ldr;I)Ldr;	b(Lpe;Ldt;I)Ldt;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
 c	Lqb;	Lqj;
 	m	<init>()V	<init>()V
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(ILjava/lang/String;)Ljava/lang/String;
@@ -76471,6 +77381,29 @@ c	Lqc;	Lqk;
 		mv	7	7
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+c	Lqd;	Lql;
+	m	<init>(Ljava/lang/String;[Ljava/lang/String;)V	<init>(Ljava/lang/Class;[Ljava/lang/String;)V
+		ma	1	1
+	m	b(Lpc;Ldr;I)Ldr;	b(Lpe;Ldt;I)Ldt;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
+c	Lqe;	Lqm;
+	m	<init>(Ljava/lang/String;Ljava/lang/String;)V	<init>(Ljava/lang/Class;)V
+	m	a(Lpc;Ldr;I)Ldr;	a(Lpe;Ldt;I)Ldt;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	b(Lpc;Ldr;I)Ldr;	b(Lpe;Ldt;I)Ldt;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	f	b;;Ljava/lang/String;	a;;Lkp;
 c	Lqh;	Lqp;
 	m	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ma	0	0
@@ -76621,6 +77554,14 @@ c	Lql;	Lqt;
 		ma	1	1
 	m	g()I	g()I
 	m	l()V	l()V
+c	Lqm;	Lqu;
+	m	a([Ladz;II)Ladz;	a(Ljava/util/List;II)Laeq;
+		ma	1	1
+		ma	2	2
+	m	a([Ladz;I)Ladz;	a(Ljava/util/List;I)Laeq;
+		ma	1	1
+c	Lqn;	Lqv;
+	m	a(Lra;)V	a(Lqt;)V
 c	Lqo;	Lqw;
 	m	a(Laid;Lcm;Lql;)V	a(Laiu;Lcn;Lqt;)V
 		ma	0	0
@@ -76846,6 +77787,7 @@ c	Lra;	Lri;
 	m	l()V	l()V
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;I	b;;I
+	f	c;;[Ladz;	c;;Ldc;
 	f	d;;Ljava/util/List;	d;;Ljava/util/List;
 	f	e;;Z	e;;Z
 c	Lrb$1;	Lrj$1;
@@ -78281,9 +79223,50 @@ c	Lrw;	Lse;
 	f	ar;;Ljava/util/UUID;	ar;;Ljava/util/UUID;
 	f	as;;Ljava/lang/String;	as;;Ljava/lang/String;
 	f	aF;;Lo;	aG;;Lo;
+	f	aG;;Ljava/util/List;	b;;Ljava/util/List;
 	f	at;;Z	at;;Z
 	f	aH;;Ljava/util/Set;	aH;;Ljava/util/Set;
 	f	aI;;Z	aI;;Z
+c	Lry$a;	Lsg$a;
+	m	<init>(Ljava/lang/String;II)V	<init>(Lkp;II)V
+		ma	1	1
+		ma	2	2
+	f	a;;Ljava/lang/String;	a;;Lkp;
+	f	b;;I	b;;I
+	f	c;;I	c;;I
+	f	d;;Lns;	d;;Lnu;
+	f	e;;Lns;	e;;Lnu;
+c	Lry;	Lsg;
+	m	a(Ljava/lang/Class;Ljava/lang/String;I)V	a(ILjava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V
+	m	a(Ljava/lang/Class;Ljava/lang/String;III)V	a(Ljava/lang/String;II)Lsg$a;
+	m	a(Ljava/lang/String;Laid;)Lrw;	a(Ljava/lang/Class;Laiu;)Lse;
+		ma	1	1
+	m	a(Ldr;Laid;)Lrw;	a(Ldt;Laiu;)Lse;
+		ma	0	0
+		ma	1	1
+	m	a(ILaid;)Lrw;	a(ILaiu;)Lse;
+		ma	0	0
+		ma	1	1
+	m	b(Ljava/lang/String;Laid;)Lrw;	a(Lkp;Laiu;)Lse;
+		ma	1	1
+	m	a(Lrw;)I	b(Lse;)Ljava/lang/String;
+		ma	0	0
+	m	a(I)Ljava/lang/Class;	a(I)Ljava/lang/Class;
+		ma	0	0
+	m	b(Lrw;)Ljava/lang/String;	a(Lse;)Lkp;
+		ma	0	0
+	m	a(Ljava/lang/Class;)Ljava/lang/String;	a(Ljava/lang/Class;)Lkp;
+		ma	0	0
+	m	a(Ljava/lang/String;)I	a(Lkp;)Ljava/lang/String;
+	m	a()V	b()V
+	m	b()Ljava/util/List;	a()Ljava/util/Set;
+	m	a(Lrw;Ljava/lang/String;)Z	a(Lse;Lkp;)Z
+	m	b(Ljava/lang/String;)Z	b(Lkp;)Z
+	m	<clinit>()V	<clinit>()V
+	f	b;;Lorg/apache/logging/log4j/Logger;	f;;Lorg/apache/logging/log4j/Logger;
+	f	c;;Ljava/util/Map;	b;;Ldb;
+	f	g;;Ljava/util/Map;	g;;Ljava/util/List;
+	f	a;;Ljava/util/Map;	c;;Ljava/util/Map;
 c	Ls;	Lt;
 	m	<init>()V	<init>()V
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
@@ -79015,6 +79998,8 @@ c	Lsf;	Lsn;
 	f	br;;Lsv;	br;;Ltd;
 	f	bs;;Lrg;	bs;;Lro;
 	f	bt;;Ljava/util/Map;	bt;;Ljava/util/Map;
+	f	bu;;[Ladz;	bu;;Ldc;
+	f	bv;;[Ladz;	bv;;Ldc;
 	f	av;;Z	av;;Z
 	f	aw;;Lqr;	aw;;Lqz;
 	f	ax;;I	ax;;I
@@ -79150,6 +80135,8 @@ c	Lsg;	Lso;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	m	a(Lpd;Ljava/lang/String;)V	a(Lpf;Ljava/lang/Class;)V
+		ma	0	0
 	m	b(Ldr;)V	b(Ldt;)V
 		ma	0	0
 		mv	0	0
@@ -79360,7 +80347,9 @@ c	Lsg;	Lso;
 	f	bs;;Ltr;	bs;;Ltz;
 	f	bv;;Lsf;	bv;;Lsn;
 	f	bw;;Lvq;	bw;;Lvz;
+	f	bx;;[Ladz;	bx;;Ldc;
 	f	bt;;[F	bt;;[F
+	f	by;;[Ladz;	by;;Ldc;
 	f	bu;;[F	bu;;[F
 	f	bz;;Z	bz;;Z
 	f	bA;;Z	bA;;Z
@@ -81562,6 +82551,7 @@ c	Lvv;	Lwe;
 	f	g;;I	g;;I
 	f	h;;I	h;;I
 	f	i;;I	i;;I
+	f	j;;Ljava/util/TreeMap;	j;;Ljava/util/Map;
 	f	k;;Ljava/util/List;	k;;Ljava/util/List;
 	f	l;;I	l;;I
 c	Lvw;	Lwf;
@@ -81816,6 +82806,9 @@ c	Lwc;	Lwl;
 	m	a(Lzs;Lqr;Ladz;)Z	a(Laak;Lqz;)Z
 		ma	0	0
 		ma	1	1
+	m	a(Lzs;Ladz;)V	a(Laak;Laeq;)V
+		ma	0	0
+		ma	1	1
 	m	c(Lzs;)V	c(Laak;)V
 		ma	0	0
 	m	dj()Lzs;	dj()Laak;
@@ -81882,6 +82875,29 @@ c	Lwd;	Lwm;
 	f	bC;;F	bC;;F
 	f	bD;;I	bD;;I
 	f	bE;;Z	bE;;Z
+c	Lwe;	Lwn;
+	m	<init>(Laid;)V	<init>(Laiu;)V
+		ma	0	0
+	m	b(Lpd;)V	a(Lpf;)V
+		ma	0	0
+	m	r()V	r()V
+	m	bD()V	bD()V
+	m	G()Lni;	G()Lnk;
+	m	bV()Lni;	bV()Lnk;
+	m	bW()Lni;	bW()Lnk;
+	m	a(Lcm;Lakf;)V	a(Lcn;Lakw;)V
+		ma	0	0
+		ma	1	1
+	m	ch()F	ch()F
+	m	J()Lkn;	J()Lkp;
+	m	a(Lzs;Lqr;Ladz;)Z	a(Laak;Lqz;)Z
+		ma	0	0
+		ma	1	1
+	m	b(Lrt;)Lwe;	b(Lsb;)Lwn;
+		ma	0	0
+	m	bq()F	bq()F
+	m	a(Lrt;)Lrt;	a(Lsb;)Lsb;
+		ma	0	0
 c	Lwf;	Lwo;
 	m	<init>(Laid;)V	<init>(Laiu;)V
 		ma	0	0
@@ -82630,6 +83646,157 @@ c	Lwr$1;	Lxb$1;
 		ma	0	0
 	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
 		ma	0	0
+c	Lwr;	Lxb;
+	m	<init>(Laid;)V	<init>(Laiu;)V
+		ma	0	0
+	m	r()V	r()V
+	m	o(I)Z	g(I)Z
+		ma	0	0
+	m	c(IZ)V	c(IZ)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	dh()Z	dh()Z
+	m	dm()Ljava/util/UUID;	di()Ljava/util/UUID;
+	m	b(Ljava/util/UUID;)V	b(Ljava/util/UUID;)V
+		ma	0	0
+	m	dn()F	dm()F
+	m	a(Z)V	a(Z)V
+		ma	0	0
+	m	do()Z	dn()Z
+	m	p(Z)V	q(Z)V
+		ma	0	0
+	m	q(Z)V	r(Z)V
+		ma	0	0
+	m	q(F)V	q(F)V
+		ma	0	0
+	m	ds()Z	dp()Z
+	m	dv()I	dr()I
+	m	m(I)V	m(I)V
+		ma	0	0
+	m	n(I)I	n(I)I
+		ma	0	0
+		mv	0	0
+	m	a(Lrh;F)Z	a(Lrp;F)Z
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	ar()Z	ar()Z
+	m	dM()V	de()V
+	m	e(FF)V	e(FF)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+	m	dO()V	ds()V
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	a(Lrw;D)Lwr;	a(Lse;D)Lxb;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+	m	dy()D	du()D
+	m	dz()Z	dv()Z
+	m	a(Lcm;Lakf;)V	a(Lcn;Lakw;)V
+		ma	0	0
+		mv	0	0
+	m	cO()I	cO()I
+	m	dB()I	dw()I
+	m	ch()F	ch()F
+	m	C()I	C()I
+	m	f(Lzs;)V	f(Laak;)V
+		ma	0	0
+	m	h(Lzs;)V	g(Laak;)V
+		ma	0	0
+	m	cj()Z	cj()Z
+	m	e(Ladz;)Z	e(Laeq;)Z
+		ma	0	0
+	m	dS()V	dD()V
+	m	dT()V	dE()V
+	m	v(Z)V	u(Z)V
+		ma	0	0
+	m	w(Z)V	v(Z)V
+		ma	0	0
+	m	dV()V	dF()V
+	m	dJ()V	dx()V
+		mv	0	0
+	m	g(Lzs;)Z	h(Laak;)Z
+		ma	0	0
+	m	g(FF)V	g(FF)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+	m	cP()Z	cP()Z
+	m	r(F)F	r(F)F
+		ma	0	0
+	m	s(F)F	s(F)F
+		ma	0	0
+	m	t(F)F	t(F)F
+		ma	0	0
+	m	a_(I)V	a_(I)V
+		ma	0	0
+	m	b()Z	a()Z
+	m	b(I)V	b(I)V
+		ma	0	0
+	m	r_()V	q_()V
+	m	x(Z)V	w(Z)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+	m	a(B)V	a(B)V
+		ma	0	0
+	m	k(Lrw;)V	k(Lse;)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+	m	dW()F	dz()F
+	m	dX()D	dA()D
+	m	dY()D	dB()D
+	m	m_()Z	m_()Z
+	m	bq()F	bq()F
+	m	bw()Lrw;	bw()Lse;
+	m	<clinit>()V	<clinit>()V
+	f	bD;;Lcom/google/common/base/Predicate;	bH;;Lcom/google/common/base/Predicate;
+	f	bE;;Lsr;	bx;;Lsz;
+	f	bG;;Lkh;	bI;;Lkj;
+	f	bJ;;Lkh;	bJ;;Lkj;
+	f	bR;;I	bL;;I
+	f	bS;;I	bM;;I
+	f	bx;;I	by;;I
+	f	bz;;Z	bB;;Z
+	f	bT;;Labe;	bC;;Lack;
+	f	bB;;I	bD;;I
+	f	bC;;F	bE;;F
+	f	bV;;Z	bN;;Z
+	f	bY;;F	bO;;F
+	f	bZ;;F	bP;;F
+	f	ca;;F	bQ;;F
+	f	cb;;F	bR;;F
+	f	cc;;F	bS;;F
+	f	cd;;F	bT;;F
+	f	ce;;I	bG;;I
 c	Lws;	Lxe;
 	m	values()[Lws;	values()[Lxe;
 	m	valueOf(Ljava/lang/String;)Lws;	valueOf(Ljava/lang/String;)Lxe;
@@ -83584,6 +84751,14 @@ c	Lxx;	Lyl;
 		ma	0	0
 	m	b(Lsb;)Z	c(Lsj;)Z
 		ma	0	0
+	m	a(Lzs;Lsb;Ladz;Lqr;)V	a(Laak;Lsj;Laeq;Lqz;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
+		mv	1	1
+		mv	2	2
 	m	a(Lrh;F)Z	a(Lrp;F)Z
 		ma	0	0
 		ma	1	1
@@ -83688,6 +84863,8 @@ c	Lxx;	Lyl;
 	f	f;;Lkh;	f;;Lkj;
 	f	g;;Lkh;	g;;Lkj;
 	f	bx;;Lcom/google/common/base/Predicate;	bx;;Lcom/google/common/base/Predicate;
+	f	by;;[Ladz;	by;;Ldc;
+	f	bz;;[Ladz;	bz;;Ldc;
 	f	bA;;Z	bA;;Z
 	f	h;;J	h;;J
 	f	bB;;I	bB;;I
@@ -84325,6 +85502,7 @@ c	Lyk;	Lyy;
 	m	c(I)Lrw;	c(I)Lse;
 		ma	0	0
 		mv	0	0
+	m	k()Ladz;	k()Laeq;
 	m	a(Ladz;)V	a(Laeq;)V
 		ma	0	0
 	m	l()Ljava/lang/String;	l()Ljava/lang/String;
@@ -84343,6 +85521,7 @@ c	Lyk;	Lyy;
 	m	v()V	v()V
 	m	w()V	w()V
 	m	<clinit>()V	<clinit>()V
+	f	b;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	c;;Lkh;	c;;Lkj;
 	f	d;;I	d;;I
 	f	e;;I	e;;I
@@ -84856,6 +86035,82 @@ c	Lyv$c;	Lzl$c;
 		mv	14	14
 		mv	15	15
 	f	i;;Lyv;	i;;Lzl;
+c	Lyv;	Lzl;
+	m	<init>(Laid;)V	<init>(Laiu;)V
+		ma	0	0
+	m	r()V	r()V
+		mv	0	0
+	m	bD()V	bD()V
+	m	b(Lpd;)V	b(Lpf;)V
+		ma	0	0
+	m	b(Laid;)Lvl;	b(Laiu;)Lvu;
+		ma	0	0
+	m	i()V	i()V
+	m	o()Z	dg()Z
+	m	p(Z)V	a(Z)V
+		ma	0	0
+	m	df()I	o()I
+	m	b(I)V	a(I)V
+		ma	0	0
+	m	di()Z	dh()Z
+	m	dj()Lsf;	di()Lsn;
+		mv	0	0
+	m	a(Lkh;)V	a(Lkj;)V
+		ma	0	0
+	m	C()I	C()I
+	m	G()Lni;	G()Lnk;
+	m	bV()Lni;	bV()Lnk;
+	m	bW()Lni;	bW()Lnk;
+	m	af()Z	af()Z
+	m	bq()F	bq()F
+	m	a(Lcm;)F	a(Lcn;)F
+		ma	0	0
+	m	n()V	n()V
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+		mv	8	8
+	m	a(F)F	a(F)F
+		ma	0	0
+	m	r(F)F	r(F)F
+		ma	0	0
+	m	s(F)F	s(F)F
+		ma	0	0
+	m	J()Lkn;	J()Lkp;
+	m	s_()Z	r_()Z
+	m	cL()Z	cL()Z
+	m	cK()Z	cK()Z
+	m	a(Lrh;F)Z	a(Lrp;F)Z
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	N()I	N()I
+	m	g(FF)V	g(FF)V
+		ma	0	0
+		ma	1	1
+	m	a(Lyv;I)V	a(Lzl;I)V
+		ma	0	0
+		ma	1	1
+	m	a(Lyv;Z)V	a(Lzl;Z)V
+		ma	0	0
+		ma	1	1
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lkh;	bA;;Lkj;
+	f	b;;Lkh;	bB;;Lkj;
+	f	c;;F	a;;F
+	f	bx;;F	b;;F
+	f	by;;F	c;;F
+	f	bz;;F	bx;;F
+	f	bA;;F	by;;F
+	f	bB;;Lsf;	bC;;Lsn;
+	f	bC;;I	bD;;I
+	f	bD;;Z	bE;;Z
+	f	bE;;Lum;	bz;;Luu;
 c	Lyw;	Lzn;
 	m	<init>(Laid;)V	<init>(Laiu;)V
 		ma	0	0
@@ -85251,6 +86506,34 @@ c	Lzc$b;	Lzt$b;
 		mv	7	7
 	f	a;;Lzc;	a;;Lzt;
 	f	b;;I	b;;I
+c	Lzc;	Lzt;
+	m	<init>(Laid;)V	<init>(Laiu;)V
+		ma	0	0
+	m	b(Lpd;)V	a(Lpf;)V
+		ma	0	0
+	m	r()V	r()V
+	m	ax()D	ax()D
+	m	bq()F	bq()F
+	m	bD()V	bD()V
+	m	af()Z	af()Z
+	m	G()Lni;	G()Lnk;
+	m	bV()Lni;	bV()Lnk;
+	m	bW()Lni;	bW()Lnk;
+	m	a(Lcm;Lakf;)V	a(Lcn;Lakw;)V
+		ma	0	0
+		ma	1	1
+	m	a(Lrh;F)Z	a(Lrp;F)Z
+		ma	0	0
+		ma	1	1
+	m	J()Lkn;	J()Lkp;
+	m	m()V	m()V
+	m	a(Lcm;)F	a(Lcn;)F
+		ma	0	0
+	m	s_()Z	r_()Z
+	m	cK()Z	cK()Z
+		mv	0	0
+	m	ce()Lsk;	ce()Lss;
+	f	a;;Lzc$b;	a;;Lzt$b;
 c	Lzd$1;	Lzb$1;
 	m	<init>(Lzd;Lsm;DZ)V	<init>(Lzb;Lsu;DZ)V
 		ma	0	0
@@ -85260,6 +86543,58 @@ c	Lzd$1;	Lzb$1;
 	m	d()V	d()V
 	m	c()V	c()V
 	f	h;;Lzd;	h;;Lzb;
+c	Lzd;	Lzb;
+	m	<init>(Laid;)V	<init>(Laiu;)V
+		ma	0	0
+	m	r()V	r()V
+	m	bD()V	bD()V
+	m	i()V	i()V
+	m	a(Lcm;Lakf;)V	a(Lcn;Lakw;)V
+		ma	0	0
+		ma	1	1
+	m	ce()Lsk;	ce()Lss;
+	m	n()V	n()V
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	aw()V	aw()V
+		mv	0	0
+	m	a(Lrh;)V	a(Lrp;)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	m	a(Lqq;)V	a(Lqy;)V
+		ma	0	0
+	m	a(Lqq;Lsi;)Lsi;	a(Lqy;Lsq;)Lsq;
+		ma	0	0
+		ma	1	1
+		mv	1	0
+	m	o()V	de()V
+		mv	0	0
+		mv	1	1
+	m	a(Lsf;F)V	a(Lsn;F)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+	m	a(Ldr;)V	a(Ldt;)V
+	m	a(Lsb;Ladz;)V	a(Lsj;Laeq;)V
+		ma	0	0
+		ma	1	1
+	m	bq()F	bq()F
+	m	ax()D	ax()D
+	m	dg()Z	df()Z
+	m	a(Z)V	a(Z)V
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	b;;Lkh;	a;;Lkj;
+	f	c;;Luo;	b;;Luw;
+	f	bx;;Lty;	c;;Lug;
 c	Lzf$a;	Lzv$a;
 	m	<init>(Lzf;)V	<init>(Lzv;)V
 		ma	0	0
@@ -85865,6 +87200,8 @@ c	Lzr;	Laaj;
 	m	b(Ladz;Ladz;)Z	b(Laeq;Laeq;)Z
 		ma	0	0
 		ma	1	1
+	m	j()I	j()I
+		mv	0	0
 	m	a(Ladz;)V	a(Laeq;)V
 		ma	0	0
 		mv	0	0
@@ -85894,6 +87231,13 @@ c	Lzr;	Laaj;
 		mv	2	2
 		mv	3	3
 		mv	4	4
+	m	g(Ladz;)I	g(Laeq;)I
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
 	m	h(Ladz;)I	h(Laeq;)I
 		ma	0	0
 		mv	0	0
@@ -85909,6 +87253,9 @@ c	Lzr;	Laaj;
 	m	a(II)Ladz;	a(II)Laeq;
 		ma	0	0
 		ma	1	1
+	m	d(Ladz;)V	d(Laeq;)V
+		ma	0	0
+		mv	2	2
 	m	b(I)Ladz;	b(I)Laeq;
 		ma	0	0
 		mv	5	3
@@ -85947,6 +87294,8 @@ c	Lzr;	Laaj;
 	m	a(F)V	a(F)V
 		ma	0	0
 		mv	0	0
+	m	n()V	n()V
+		mv	2	2
 	m	v_()V	u_()V
 	m	e(Ladz;)V	e(Laeq;)V
 		ma	0	0
@@ -85972,6 +87321,10 @@ c	Lzr;	Laaj;
 		ma	1	1
 	m	g()I	g()I
 	m	l()V	l()V
+	f	a;;[Ladz;	a;;Ldc;
+	f	b;;[Ladz;	b;;Ldc;
+	f	c;;[Ladz;	c;;Ldc;
+	f	g;;[[Ladz;	g;;Ljava/util/List;
 	f	d;;I	d;;I
 	f	e;;Lzs;	e;;Laak;
 	f	h;;Ladz;	h;;Laeq;
@@ -86158,6 +87511,8 @@ c	Lzs;	Laak;
 		ma	0	0
 		mv	0	0
 		mv	1	1
+	m	cL()F	cL()F
+		mv	0	0
 	m	d(Lrh;F)V	d(Lrp;F)V
 		ma	0	0
 		ma	1	1
@@ -86183,6 +87538,9 @@ c	Lzs;	Laak;
 	m	a(Ladz;Lqr;)V	a(Laeq;Lqz;)V
 		ma	0	0
 		ma	1	1
+	m	a(Lrw;Ladz;Lqr;)Lqt;	a(Lse;Lqz;)Lrb;
+		ma	0	0
+		mv	0	1
 	m	ax()D	ax()D
 	m	p()V	p()V
 	m	f(Lrw;)V	f(Lse;)V
@@ -86441,6 +87799,7 @@ c	Lzs;	Laak;
 	f	bS;;I	bS;;I
 	f	bT;;Lcom/mojang/authlib/GameProfile;	bT;;Lcom/mojang/authlib/GameProfile;
 	f	bU;;Z	bU;;Z
+	f	bV;;Ladz;	bV;;Laeq;
 	f	bW;;Lady;	bW;;Laep;
 	f	bR;;Lyd;	bR;;Lyr;
 c	Lzt;	Laal;
